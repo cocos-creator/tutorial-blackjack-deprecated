@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5e6b366b-3c74-4d00-ada9-35b806f50ba5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "bg_gold_zhuozi": {
+      "ver": "1.0.0",
+      "uuid": "db285bfe-a5fd-495c-b8ef-58e38c6133d9",
+      "rawTextureUuid": "5e6b366b-3c74-4d00-ada9-35b806f50ba5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 91,
+      "height": 30,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

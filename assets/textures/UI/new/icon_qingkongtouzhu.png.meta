@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "abceeb90-09f9-4da7-85a9-b4e6c8c96787",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "icon_qingkongtouzhu": {
+      "ver": "1.0.0",
+      "uuid": "3b0d303c-d928-4420-b8d8-a7234260ca04",
+      "rawTextureUuid": "abceeb90-09f9-4da7-85a9-b4e6c8c96787",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 88,
+      "height": 93,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

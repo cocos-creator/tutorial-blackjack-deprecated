@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9d4b7086-c175-4399-9006-8656bd0deafb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "las-vegas-chip-iphone-100": {
+      "ver": "1.0.0",
+      "uuid": "20e97260-8fd8-4abd-a8c6-b47791405edb",
+      "rawTextureUuid": "9d4b7086-c175-4399-9006-8656bd0deafb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 89,
+      "height": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

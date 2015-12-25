@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ae12855f-4dca-468b-9e54-9b7f6cd2055d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "icon_touzhu-": {
+      "ver": "1.0.0",
+      "uuid": "e402984e-0e8f-4470-9f8e-d7eaa92544d1",
+      "rawTextureUuid": "ae12855f-4dca-468b-9e54-9b7f6cd2055d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 228,
+      "height": 216,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

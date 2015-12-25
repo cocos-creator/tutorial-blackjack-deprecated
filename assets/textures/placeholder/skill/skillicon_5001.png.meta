@@ -1,0 +1,28 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c736bd71-31c1-48c2-bfeb-3a4a91a85ff6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "skillicon_5001": {
+      "ver": "1.0.0",
+      "uuid": "74f92818-ff94-4279-8e19-41960b956477",
+      "rawTextureUuid": "c736bd71-31c1-48c2-bfeb-3a4a91a85ff6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 70,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
