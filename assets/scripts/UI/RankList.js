@@ -4,6 +4,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        scrollView: {
+            default: null,
+            type: cc.ScrollView
+        },
         prefabRankItem: {
             default: null,
             type: cc.Prefab
@@ -13,7 +17,7 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        this.content = this.getComponent(cc.ScrollView).content;
+        this.content = this.scrollView.content;
         this.populateList();
     },
 
