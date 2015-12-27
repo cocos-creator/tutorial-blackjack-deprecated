@@ -9,12 +9,14 @@ cc.Class({
     // use this for initialization
     onLoad: function () {
         var self = this;
+        var audioMng = cc.find('/AudioMng').getComponent('AudioMng');
         self.initScale = this.node.scale;
         self.button = self.getComponent(cc.Button);
         self.scaleDownAction = cc.scaleTo(self.transDuration, self.pressedScale);
         self.scaleUpAction = cc.scaleTo(self.transDuration, self.initScale);
         function onTouchDown (event) {
             this.stopAllActions();
+            audioMng.playButton();
             this.runAction(self.scaleDownAction);
         }
         function onTouchUp (event) {
