@@ -26,7 +26,7 @@ cc.Class({
 
     addCard: function (card) {
         this._super(card);
-        
+
         var Game = require('Game');
         Game.instance.canReport = this.canReport;
     },

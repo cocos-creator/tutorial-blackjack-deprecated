@@ -20,6 +20,10 @@ cc.Class({
             default: null,
             type: cc.Node
         },
+        resultStateUI: {
+            default: null,
+            type: cc.Node
+        },
         resultTxt: {
             default: null,
             type: cc.Label
@@ -37,6 +41,7 @@ cc.Class({
         this.resultTxt.active = false;
         this.betStateUI.active = true;
         this.gameStateUI.active = false;
+        this.resultStateUI.active = false;
         this.betDuration = betDuration;
         this.progressTimer = this.initCountdown();
         // this.startCountdown();

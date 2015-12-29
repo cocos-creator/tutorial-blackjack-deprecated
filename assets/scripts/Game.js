@@ -3,7 +3,7 @@ var Decks = require('Decks');
 var Types = require('Types');
 var ActorPlayingState = Types.ActorPlayingState;
 var Fsm = require('game-fsm');
- 
+
 var Game = cc.Class({
     extends: cc.Component,
 
@@ -30,7 +30,7 @@ var Game = cc.Class({
         },
         turnDuration: 0,
         betDuration: 0,
-        
+
         totalChipsNum: {
             default: 0,
             tooltip: '当前筹码数'
@@ -56,14 +56,14 @@ var Game = cc.Class({
         this.decks = new Decks(numberOfDecks);
         this.fsm = Fsm;
         this.fsm.init(this);
-        
+
         // start
         this.inGameUI.startCountdown();
         this.updateTotalChips();
 
         this.audioMng.playMusic();
     },
-    
+
     addStake: function (delta) {
         if (this.totalChipsNum < delta) {
             cc.log('not enough chips!');
@@ -88,7 +88,7 @@ var Game = cc.Class({
         this.updateTotalChips();
         this.betUI.resetBettingChips();
     },
-    
+
     updateTotalChips: function() {
         //this.totalChips.setString(this.totalChipsNum);
         //this.player.updateTotalChips(this.totalChipsNum);
@@ -111,9 +111,9 @@ var Game = cc.Class({
             }
         }
     },
-    
+
     // UI EVENT CALLBACKS
-    
+
     // 玩家要牌
     hit: function () {
         this.player.addCard(this.decks.draw());
@@ -121,9 +121,9 @@ var Game = cc.Class({
             // if every player end
             this.fsm.onPlayerActed();
         }
-        
+
         this.audioMng.playCard();
-        
+
         //if (this.dealer.state === ActorPlayingState.Normal) {
         //    if (this.dealer.wantHit()) {
         //        this.dealer.addCard(this.decks.draw());
@@ -138,23 +138,23 @@ var Game = cc.Class({
         //}
         this.audioMng.playButton();
     },
-    
+
     // 玩家停牌
     stand: function () {
         this.player.stand();
-        
+
         this.audioMng.playButton();
 
         // if every player end
         this.fsm.onPlayerActed();
     },
-    
-    // 
+
+    //
     deal: function () {
         this.fsm.toDeal();
         this.audioMng.playButton();
     },
-    
+
     //
     start: function () {
         this.fsm.toBet();
@@ -168,9 +168,13 @@ var Game = cc.Class({
         // if every player end
         this.fsm.onPlayerActed();
     },
-    
+
+    quitToMenu: function () {
+        cc.director.loadScene('menu');
+    },
+
     // FSM CALLBACKS
-    
+
     onEnterDealState: function () {
         this.betUI.resetBettingChips();
         this.bettingCountdown.setVisible(false);
@@ -207,7 +211,7 @@ var Game = cc.Class({
         }
         this.fsm.onDealerActed();
     },
-    
+
     // 结算
     onEndState: function (enter) {
         if (enter) {
@@ -254,7 +258,7 @@ var Game = cc.Class({
         this.info.visible = enter;
         this.startBtn.visible = enter;
     },
-    
+
     // 下注
     onBetState: function  (enter) {
         //if (enter) {
@@ -277,9 +281,9 @@ var Game = cc.Class({
         this.inGameUI.gameStateUI.active = !enter;
         //this.info.visible = enter;
     },
-    
+
     // PRIVATES
-    
+
     // 判断玩家输赢
     _getPlayerResult: function (player, dealer) {
         var Outcome = Types.Outcome;
