@@ -3148,9 +3148,11 @@
       "width": 500,
       "height": 18
     },
+    "autoResize": true,
     "_N$layoutType": 2,
     "_N$margin": 10,
-    "_N$spacing": 2,
+    "_N$spacingX": 0,
+    "_N$spacingY": 2,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0
   },

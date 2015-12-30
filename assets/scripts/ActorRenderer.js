@@ -54,12 +54,11 @@ cc.Class({
         },
         animFX: {
             default: null,
-            type: cc.Animation
+            type: cc.Node
         }
     },
 
     onLoad: function () {
-        this.playAnimFX('blackjack');
     },
 
     init: function ( playerInfo, playerInfoPos, stakePos, turnDuration, switchSide ) {
@@ -72,7 +71,7 @@ cc.Class({
         this.updateTotalStake(playerInfo.gold);
         var photoIdx = playerInfo.photoIdx % 5;
         this.spPlayerPhoto.spriteFrame = Game.instance.assetMng.playerPhotos[photoIdx];
-        this.animFX.node.active = false;
+        this.animFX = this.animFX.getComponent('FXPlayer');
 
         this.progressTimer = this.initCountdown();
 
@@ -119,16 +118,12 @@ cc.Class({
         }
     },
 
-    playAnimFX: function (name) { // name can be 'blackjack' or 'bust'
-        this.animFX.node.active = true;
-        this.animFX.play(name);
-        var duration = this.animFX.getAnimationState(name).duration;
-        this.unschedule(this.hideAnimFX);
-        this.scheduleOnce(this.hideAnimFX, duration);
+    playBlackJackFX: function () {
+        this.animFX.playFX('blackjack');
     },
 
-    hideAnimFX: function () {
-        this.animFX.node.active = false;
+    playBustFX: function () {
+        this.animFX.playFX('bust');
     },
 
     // called every frame

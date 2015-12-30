@@ -24,7 +24,7 @@ cc.Class({
             this.stopAllActions();
             this.runAction(self.scaleUpAction);
         }
-        this.button.on(cc.Button.EVENT_TOUCH_DOWN, onTouchDown, this.node);
-        this.button.on(cc.Button.EVENT_TOUCH_UP, onTouchUp, this.node);
+        this.node.on('touchstart', onTouchDown, this.node);
+        this.node.on('touchend', onTouchUp, this.node);
     },
 });

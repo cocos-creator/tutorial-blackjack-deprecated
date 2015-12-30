@@ -223,7 +223,14 @@
           }
         ]
       }
-    }
+    },
+    "props": {}
   },
-  "events": []
+  "events": [
+    {
+      "frame": 0.85,
+      "func": "hideFX",
+      "params": []
+    }
+  ]
 }
