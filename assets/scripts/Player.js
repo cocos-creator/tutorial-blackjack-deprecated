@@ -3,24 +3,14 @@ var Actor = require('Actor');
 cc.Class({
     extends: Actor,
 
-    properties: {
-        // 赌注
-        labelStake: {
-            default: null,
-            type: cc.Node
-        },
-    },
-
-    onLoad: function () {
+    init: function () {
         this._super();
-
+        this.labelStake = this.renderer.labelStakeOnTable;
         this.stakeNum = 0;
     },
 
     reset: function () {
         this._super();
-
-        // this.labelStake = this.getChildByName('Stake');
         this.resetStake();
     },
 
@@ -42,7 +32,7 @@ cc.Class({
     },
 
     updateStake: function(number) {
-        this.labelStake.setString(number);
+        this.labelStake.string = number.toString();
     },
 
 });

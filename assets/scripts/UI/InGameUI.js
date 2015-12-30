@@ -20,10 +20,6 @@ cc.Class({
             default: null,
             type: cc.Node
         },
-        resultStateUI: {
-            default: null,
-            type: cc.Node
-        },
         resultTxt: {
             default: null,
             type: cc.Label
@@ -31,6 +27,14 @@ cc.Class({
         betCounter: {
             default: null,
             type: cc.Node
+        },
+        btnStart: {
+            default: null,
+            type: cc.Node
+        },
+        labelTotalChips: {
+            default: null,
+            type: cc.Label
         }
     },
 
@@ -38,13 +42,13 @@ cc.Class({
     init: function (betDuration) {
         this.panelChat.active = false;
         this.panelSocial.active = false;
-        this.resultTxt.active = false;
+        this.resultTxt.enabled = false;
         this.betStateUI.active = true;
         this.gameStateUI.active = false;
-        this.resultStateUI.active = false;
+        // this.resultStateUI.active = false;
+        this.btnStart.active = false;
         this.betDuration = betDuration;
         this.progressTimer = this.initCountdown();
-        // this.startCountdown();
     },
 
     initCountdown: function () {
@@ -56,16 +60,17 @@ cc.Class({
         progressTimer.setName('progressTimer');
         progressTimer.setMidpoint(cc.p(0.5, 0.5));
         progressTimer.setType(cc.ProgressTimer.Type.RADIAL);
+        progressTimer.reverseDir = true;
         this.betCounter._sgNode.addChild(progressTimer);
-        progressTimer.setPosition(cc.p(0, -131.5));
-        progressTimer.setPercentage(100);
+        progressTimer.setPosition(cc.p(-this.betCounter.width/2, -this.betCounter.height));
+        progressTimer.setPercentage(0);
 
         return progressTimer;
     },
 
     startCountdown: function() {
         if (this.progressTimer) {
-            var fromTo = cc.progressFromTo(this.betDuration, 100, 0);
+            var fromTo = cc.progressFromTo(this.betDuration, 0, 100);
             this.progressTimer.runAction(fromTo);
         }
     },

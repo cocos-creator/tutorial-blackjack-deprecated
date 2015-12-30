@@ -74,9 +74,4 @@ cc.Class({
         this.mainPic.node.active = isFaceUp;
         this.cardBG.spriteFrame = isFaceUp ? this.texFrontBG : this.texBackBG;
     },
-
-    // called every frame
-    update: function (dt) {
-
-    },
 });

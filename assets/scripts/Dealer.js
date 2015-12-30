@@ -16,6 +16,11 @@ cc.Class({
         },
     },
 
+    init: function () {
+        this._super();
+        this.renderer.initDealer();
+    },
+
     // 返回是否要牌
     wantHit: function () {
         var Game = require('Game');

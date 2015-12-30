@@ -16,6 +16,10 @@ var Game = cc.Class({
             default: null,
             type: cc.Prefab
         },
+        dealer: {
+            default: null,
+            type: cc.Node
+        },
         inGameUI: {
             default: null,
             type: cc.Node
@@ -30,10 +34,10 @@ var Game = cc.Class({
         },
         turnDuration: 0,
         betDuration: 0,
-
-        totalChipsNum: {
-            default: 0,
-            tooltip: '当前筹码数'
+        totalChipsNum: 0,
+        numberOfDecks: {
+            default: 1,
+            type: 'Integer'
         },
     },
 
@@ -48,17 +52,24 @@ var Game = cc.Class({
         this.assetMng = this.assetMng.getComponent('AssetMng');
         this.audioMng = this.audioMng.getComponent('AudioMng');
         this.inGameUI.init(this.betDuration);
+        this.dealer = this.dealer.getComponent('Dealer');
+        this.dealer.init();
+
+        //
         this.player = null;
         this.createPlayers();
 
+        // shortcut to ui element
+        this.info = this.inGameUI.resultTxt;
+        this.startBtn = this.inGameUI.btnStart;
+        this.totalChips = this.inGameUI.labelTotalChips;
+
         // init logic
-        var numberOfDecks = 1;
-        this.decks = new Decks(numberOfDecks);
+        this.decks = new Decks(this.numberOfDecks);
         this.fsm = Fsm;
         this.fsm.init(this);
 
         // start
-        this.inGameUI.startCountdown();
         this.updateTotalChips();
 
         this.audioMng.playMusic();
@@ -67,16 +78,16 @@ var Game = cc.Class({
     addStake: function (delta) {
         if (this.totalChipsNum < delta) {
             cc.log('not enough chips!');
-            this.info.setVisible(true);
-            this.info.setString('金币不足!');
+            this.info.enabled = true;
+            this.info.string = '金币不足!';
             return false;
         } else {
             this.totalChipsNum -= delta;
             this.updateTotalChips();
             this.player.addStake(delta);
             this.audioMng.playChips();
-            this.info.setVisible(false);
-            this.info.setString('请下注');
+            this.info.enabled = false;
+            this.info.string = '请下注';
             return true;
         }
 
@@ -90,8 +101,8 @@ var Game = cc.Class({
     },
 
     updateTotalChips: function() {
-        //this.totalChips.setString(this.totalChipsNum);
-        //this.player.updateTotalChips(this.totalChipsNum);
+        this.totalChips.string = this.totalChipsNum.toString();
+        this.player.renderer.updateTotalStake(this.totalChipsNum);
     },
 
     createPlayers: function () {
@@ -108,6 +119,7 @@ var Game = cc.Class({
             actorRenderer.init(players[i], playerInfoPos, stakePos, this.turnDuration, switchSide);
             if (i === 2) {
                 this.player = playerNode.getComponent('Player');
+                this.player.init();
             }
         }
     },
@@ -255,31 +267,24 @@ var Game = cc.Class({
             }
         }
 
-        this.info.visible = enter;
-        this.startBtn.visible = enter;
+        this.info.enabled = enter;
+        this.startBtn.active = enter;
     },
 
     // 下注
     onBetState: function  (enter) {
-        //if (enter) {
-        //    this.decks.reset();
-        //    this.player.reset();
-        //    this.dealer.reset();
-        //    this.info.string = '请下注';
-        //    this.bettingCountdown.setVisible(true);
-        //    this.bettingCountdown.startCountdown();
-        //    this.inGameUI.showCurrency(true);
-        //    // this.player.setStakePosForBet();
-        //    this.playersAnchor.getChildren().forEach(function(player) {
-        //        // player.init(index);
-        //        player.setStakePosForBet();
-        //    });
-        //    this.audioMng.resumeMusic();
-        //}
-        //this.dealBtn.visible = enter;
+        if (enter) {
+           this.decks.reset();
+           this.player.reset();
+           this.dealer.reset();
+           this.info.string = '请下注';
+           this.inGameUI.startCountdown();
+
+           this.audioMng.resumeMusic();
+        }
         this.inGameUI.betStateUI.active = enter;
         this.inGameUI.gameStateUI.active = !enter;
-        //this.info.visible = enter;
+        this.info.enabled = enter;
     },
 
     // PRIVATES
