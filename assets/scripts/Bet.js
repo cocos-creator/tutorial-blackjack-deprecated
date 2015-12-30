@@ -24,18 +24,20 @@ cc.Class({
 
     // use this for initialization
     init: function () {
-        this.registerBtns();
+        this._registerBtns();
     },
 
-    registerBtns: function () {
+    _registerBtns: function () {
         var self = this;
         var registerBtn = function (index) {
-            if (Game.instance.addStake(self.chipValues[index])) {
-                self.playAddChip();
-            }
+            self.btnChips[i].on('touchstart', function (event) {
+                if (Game.instance.addStake(self.chipValues[index])) {
+                    self.playAddChip();
+                }
+            }, this);
         };
         for (var i = 0; i < self.btnChips.length; ++i) {
-            self.btnChips[i].on('touchstart', registerBtn, this);
+            registerBtn(i);
         }
     },
 
@@ -44,7 +46,13 @@ cc.Class({
         var chip = cc.instantiate(this.chipPrefab);
         this.anchorChipToss.addChild(chip);
         chip.setPosition(startPos);
-        chip.getComponent(cc.Animation).play('chip_toss');
+        chip.getComponent('TossChip').play();
+    },
+
+    resetChips: function () {
+        Game.instance.resetStake();
+        Game.instance.info.enabled = false;
+        this.resetTossedChips();
     },
 
     resetTossedChips: function () {

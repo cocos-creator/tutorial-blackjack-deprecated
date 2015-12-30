@@ -91,6 +91,8 @@ cc.Class({
         this.animFX.init();
         this.animFX.show(false);
 
+        this.cardInfo.active = false;
+
         this.progressTimer = this.initCountdown();
 
         // switch side
@@ -101,6 +103,8 @@ cc.Class({
     },
 
     initDealer: function () {
+        // actor
+        this.actor = this.getComponent('Actor');
         // fx
         this.animFX = this.animFX.getComponent('FXPlayer');
         this.animFX.init();
@@ -150,21 +154,21 @@ cc.Class({
 
     onDeal: function (card, show) {
         var newCard = cc.instantiate(this.cardPrefab).getComponent('Card');
+        this.anchorCards.addChild(newCard.node);
         newCard.init(card);
         newCard.reveal(show);
 
         //var width = newCard.getContentSize().width;
+        var startPos = cc.p(0, 0);
         var index = this.actor.cards.length - 1;
         var endPos = cc.p(this.cardSpace * index, 0);
-        var startPos = cc.p(0, 0);
         // = this.cardSpace * index;
         // newCard.y = 0;
-        this.anchorCards.addChild(newCard);
-        newCard.setPosition(startPos);
+        newCard.node.setPosition(startPos);
 
         var moveAction = cc.moveTo(0.5, endPos);
         var callback = cc.callFunc(this._onDealEnd, this, this.cardSpace * index);
-        newCard.runAction(cc.sequence(moveAction, callback));
+        newCard.node.runAction(cc.sequence(moveAction, callback));
     },
 
     _onDealEnd: function(target, pointX) {

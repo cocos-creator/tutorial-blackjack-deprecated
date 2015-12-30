@@ -56,7 +56,7 @@ cc.Class({
         }
 
         // for jsb
-        this.point.string( card.pointName );
+        this.point.string = card.pointName;
 
         if (card.isRedSuit) {
             this.point.node.color = this.redTextColor;

@@ -24,6 +24,10 @@ var Game = cc.Class({
             default: null,
             type: cc.Node
         },
+        betUI: {
+            default: null,
+            type: cc.Node
+        },
         assetMng: {
             default: null,
             type: cc.Node
@@ -35,6 +39,7 @@ var Game = cc.Class({
         turnDuration: 0,
         betDuration: 0,
         totalChipsNum: 0,
+        totalDiamondNum: 0,
         numberOfDecks: {
             default: 1,
             type: 'Integer'
@@ -51,7 +56,9 @@ var Game = cc.Class({
         this.inGameUI = this.inGameUI.getComponent('InGameUI');
         this.assetMng = this.assetMng.getComponent('AssetMng');
         this.audioMng = this.audioMng.getComponent('AudioMng');
+        this.betUI = this.betUI.getComponent('Bet');
         this.inGameUI.init(this.betDuration);
+        this.betUI.init();
         this.dealer = this.dealer.getComponent('Dealer');
         this.dealer.init();
 
@@ -77,7 +84,7 @@ var Game = cc.Class({
 
     addStake: function (delta) {
         if (this.totalChipsNum < delta) {
-            cc.log('not enough chips!');
+            console.log('not enough chips!');
             this.info.enabled = true;
             this.info.string = '金币不足!';
             return false;
@@ -97,7 +104,6 @@ var Game = cc.Class({
         this.totalChipsNum += this.player.stakeNum;
         this.player.resetStake();
         this.updateTotalChips();
-        this.betUI.resetBettingChips();
     },
 
     updateTotalChips: function() {
@@ -188,15 +194,9 @@ var Game = cc.Class({
     // FSM CALLBACKS
 
     onEnterDealState: function () {
-        this.betUI.resetBettingChips();
-        this.bettingCountdown.setVisible(false);
-        this.inGameUI.showCurrency(false);
-        this.player.showStakeChips(this.player.stakeNum);
-        // this.player.setStakePosForPlay();
-        this.playersAnchor.getChildren().forEach(function(player) {
-            // player.init(index);
-            player.setStakePosForPlay();
-        });
+        this.betUI.resetTossedChips();
+        this.inGameUI.resetCountdown();
+        this.player.renderer.showStakeChips(this.player.stakeNum);
         this.player.addCard(this.decks.draw());
         var holdCard = this.decks.draw();
         this.dealer.addHoleCard(holdCard);
@@ -207,9 +207,7 @@ var Game = cc.Class({
     },
 
     onPlayersTurnState: function (enter) {
-        this.standBtn.visible = enter;
-        this.hitBtn.visible = enter;
-        this.reportBtn.visible = false;
+        this.inGameUI.showGameState(enter);
     },
 
     onEnterDealersTurnState: function () {

@@ -82,6 +82,11 @@ cc.Class({
         }
     },
 
+    showGameState: function (show) {
+        this.betStateUI.active = !show;
+        this.gameStateUI.active = show;
+    },
+
     toggleChat: function () {
         this.panelChat.active = !this.panelChat.active;
     },
