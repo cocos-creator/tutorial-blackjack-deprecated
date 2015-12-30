@@ -82,9 +82,22 @@ cc.Class({
         }
     },
 
-    showGameState: function (show) {
-        this.betStateUI.active = !show;
-        this.gameStateUI.active = show;
+    showBetState: function () {
+        this.betStateUI.active = true;
+        this.gameStateUI.active = false;
+        this.btnStart.active = false;
+    },
+
+    showGameState: function () {
+        this.betStateUI.active = false;
+        this.gameStateUI.active = true;
+        this.btnStart.active = false;
+    },
+
+    showResultState: function () {
+        this.betStateUI.active = false;
+        this.gameStateUI.active = false;
+        this.btnStart.active = true;
     },
 
     toggleChat: function () {

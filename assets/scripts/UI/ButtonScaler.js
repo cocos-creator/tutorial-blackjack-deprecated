@@ -26,5 +26,6 @@ cc.Class({
         }
         this.node.on('touchstart', onTouchDown, this.node);
         this.node.on('touchend', onTouchUp, this.node);
+        this.node.on('touchcancel', onTouchUp, this.node);
     },
 });

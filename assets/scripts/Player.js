@@ -32,7 +32,7 @@ cc.Class({
     },
 
     updateStake: function(number) {
-        this.labelStake.string = number.toString();
+        this.labelStake.string = number;
     },
 
 });

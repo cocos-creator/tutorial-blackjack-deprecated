@@ -1,5 +1,6 @@
 var Game = require('Game');
 var Types = require('Types');
+var Utils = require('Utils');
 var ActorPlayingState = Types.ActorPlayingState;
 
 cc.Class({
@@ -125,14 +126,14 @@ cc.Class({
         progressTimer.setType(cc.ProgressTimer.Type.RADIAL);
         this.playerInfo._sgNode.addChild(progressTimer);
         progressTimer.setPosition(cc.p(0, 0));
-        progressTimer.setPercentage(100);
+        progressTimer.setPercentage(0);
 
         return progressTimer;
     },
 
     startCountdown: function() {
         if (this.progressTimer) {
-            var fromTo = cc.progressFromTo(this.turnDuration, 100, 0);
+            var fromTo = cc.progressFromTo(this.turnDuration, 0, 100);
             this.progressTimer.runAction(fromTo);
         }
     },
@@ -140,7 +141,7 @@ cc.Class({
     resetCountdown: function() {
         if (this.progressTimer) {
             this.progressTimer.stopAllActions();
-            this.progressTimer.setPercentage(100);
+            this.progressTimer.setPercentage(0);
         }
     },
 
@@ -158,12 +159,9 @@ cc.Class({
         newCard.init(card);
         newCard.reveal(show);
 
-        //var width = newCard.getContentSize().width;
         var startPos = cc.p(0, 0);
         var index = this.actor.cards.length - 1;
         var endPos = cc.p(this.cardSpace * index, 0);
-        // = this.cardSpace * index;
-        // newCard.y = 0;
         newCard.node.setPosition(startPos);
 
         var moveAction = cc.moveTo(0.5, endPos);
@@ -177,9 +175,7 @@ cc.Class({
             this.startCountdown();
         }
         this.updatePoint();
-        if (this.shouldUpdatePointPos) {
-            this._updatePointPos(pointX);
-        }
+        this._updatePointPos(pointX);
     },
 
     onReset: function () {
@@ -191,23 +187,14 @@ cc.Class({
     },
 
     onRevealHoldCard: function () {
-        var card = cc.find('cardPrefab', this.anchorCards);
+        var card = cc.find('cardPrefab', this.anchorCards).getComponent('Card');
         card.reveal(true);
         this.updateState();
     },
 
-    // onRevealNormalCard: function() {
-    //     var self = this;
-    //     self.cards.forEach(function(card) {
-    //         // var cardRenderer = Fire.find('<CardRenderer>', card);
-    //         card.show = true;
-    //         self.updateState();
-    //     });
-    // },
-
     updatePoint: function () {
         this.cardInfo.active = true;
-        this.labelCardInfo.string = this.actor.bestPoint.toString();
+        this.labelCardInfo.string = this.actor.bestPoint;
 
         switch (this.actor.hand) {
             case Types.Hand.BlackJack:
@@ -252,20 +239,23 @@ cc.Class({
         switch (this.actor.state) {
             case ActorPlayingState.Normal:
                 this.cardInfo.active = true;
+                this.spCardInfo.spriteFrame = Game.instance.assetMng.texCardInfo;
                 this.updatePoint();
                 break;
             case ActorPlayingState.Bust:
-                // var min = Utils.getMinMaxPoint(this.actor.cards).min;
-                // this.point.string = '爆牌(' + min + ')';
-                this.cardInfo.active = false;
+                var min = Utils.getMinMaxPoint(this.actor.cards).min;
+                this.labelCardInfo.string = '爆牌(' + min + ')';
+                this.spCardInfo.spriteFrame = Game.instance.assetMng.texBust;
+                this.cardInfo.active = true;
                 this.animFX.playFX('bust');
                 this.resetCountdown();
                 break;
             case ActorPlayingState.Stand:
-                //var max = Utils.getMinMaxPoint(this.actor.cards).max;
-                // this.point.string = '停牌(' + max + ')';
+                var max = Utils.getMinMaxPoint(this.actor.cards).max;
+                this.labelCardInfo.string = '停牌(' + max + ')';
+                this.spCardInfo.spriteFrame = Game.instance.assetMng.texCardInfo;
                 this.resetCountdown();
-                this.updatePoint();
+                // this.updatePoint();
                 break;
         }
     },

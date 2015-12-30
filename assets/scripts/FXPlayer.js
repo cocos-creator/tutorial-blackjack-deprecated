@@ -5,7 +5,6 @@ cc.Class({
     init: function () {
         this.anim = this.getComponent(cc.Animation);
         this.sprite = this.getComponent(cc.Sprite);
-        // this.playFX('blackjack');
     },
 
     show: function (show) {
@@ -17,9 +16,6 @@ cc.Class({
     },
 
     hideFX: function () {
-        // this.anim.stop();
-        console.log('hide');
-        // this.node.active = false;
         this.sprite.enabled = false;
     },
 });

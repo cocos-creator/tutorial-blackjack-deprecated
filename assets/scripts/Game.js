@@ -43,7 +43,7 @@ var Game = cc.Class({
         numberOfDecks: {
             default: 1,
             type: 'Integer'
-        },
+        }
     },
 
     statics: {
@@ -68,7 +68,6 @@ var Game = cc.Class({
 
         // shortcut to ui element
         this.info = this.inGameUI.resultTxt;
-        this.startBtn = this.inGameUI.btnStart;
         this.totalChips = this.inGameUI.labelTotalChips;
 
         // init logic
@@ -107,7 +106,7 @@ var Game = cc.Class({
     },
 
     updateTotalChips: function() {
-        this.totalChips.string = this.totalChipsNum.toString();
+        this.totalChips.string = this.totalChipsNum;
         this.player.renderer.updateTotalStake(this.totalChipsNum);
     },
 
@@ -115,7 +114,7 @@ var Game = cc.Class({
         for (var i = 0; i < 5; ++i) {
             var playerNode = cc.instantiate(this.playerPrefab);
             var anchor = this.playerAnchors[i];
-            var switchSide = (i >= 2);
+            var switchSide = (i > 2);
             anchor.addChild(playerNode);
             playerNode.position = cc.p(0, 0);
 
@@ -207,7 +206,9 @@ var Game = cc.Class({
     },
 
     onPlayersTurnState: function (enter) {
-        this.inGameUI.showGameState(enter);
+        if (enter) {
+            this.inGameUI.showGameState();
+        }
     },
 
     onEnterDealersTurnState: function () {
@@ -226,6 +227,7 @@ var Game = cc.Class({
     onEndState: function (enter) {
         if (enter) {
             this.dealer.revealHoldCard();
+            this.inGameUI.showResultState();
 
             var outcome = this._getPlayerResult(this.player, this.dealer);
             switch (outcome) {
@@ -266,7 +268,6 @@ var Game = cc.Class({
         }
 
         this.info.enabled = enter;
-        this.startBtn.active = enter;
     },
 
     // 下注
@@ -276,12 +277,11 @@ var Game = cc.Class({
            this.player.reset();
            this.dealer.reset();
            this.info.string = '请下注';
+           this.inGameUI.showBetState();
            this.inGameUI.startCountdown();
 
            this.audioMng.resumeMusic();
         }
-        this.inGameUI.betStateUI.active = enter;
-        this.inGameUI.gameStateUI.active = !enter;
         this.info.enabled = enter;
     },
 

@@ -95,7 +95,7 @@ cc.Class({
         if (this.holeCard) {
             this.cards.unshift(this.holeCard);
             this.holeCard = null;
-            this.onRevealHoldCard();
+            this.renderer.onRevealHoldCard();
         }
     },
 
