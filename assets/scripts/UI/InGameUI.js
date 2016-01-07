@@ -62,7 +62,7 @@ cc.Class({
         progressTimer.setType(cc.ProgressTimer.Type.RADIAL);
         progressTimer.reverseDir = true;
         this.betCounter._sgNode.addChild(progressTimer);
-        progressTimer.setPosition(cc.p(-this.betCounter.width/2, -this.betCounter.height));
+        progressTimer.setPosition(cc.p(0, -this.betCounter.height/2));
         progressTimer.setPercentage(0);
 
         return progressTimer;
