@@ -198,6 +198,7 @@ cc.Class({
 
         switch (this.actor.hand) {
             case Types.Hand.BlackJack:
+                this.animFX.show(true);
                 this.animFX.playFX('blackjack');
                 break;
             case Types.Hand.FiveCard:
@@ -247,6 +248,7 @@ cc.Class({
                 this.labelCardInfo.string = '爆牌(' + min + ')';
                 this.spCardInfo.spriteFrame = Game.instance.assetMng.texBust;
                 this.cardInfo.active = true;
+                this.animFX.show(true);
                 this.animFX.playFX('bust');
                 this.resetCountdown();
                 break;
