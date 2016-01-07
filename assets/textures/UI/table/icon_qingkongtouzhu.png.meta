@@ -6,14 +6,14 @@
   "filterMode": "bilinear",
   "subMetas": {
     "icon_qingkongtouzhu": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "881a76bc-b56e-4b73-b447-b374c7b2af36",
       "rawTextureUuid": "106bc298-d6fa-48e2-aa7e-d6b2b9ec5c9a",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 0,
+      "offsetX": 0.5,
+      "offsetY": -1,
       "trimX": 1,
       "trimY": 2,
       "width": 74,

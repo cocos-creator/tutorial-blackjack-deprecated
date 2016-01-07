@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "fangkuai_small": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "ebc06094-057f-4c1f-a055-9afc8780c3ae",
       "rawTextureUuid": "5bcdf9aa-2073-47a2-b7ab-cb8540b9d62b",
       "trimType": "auto",

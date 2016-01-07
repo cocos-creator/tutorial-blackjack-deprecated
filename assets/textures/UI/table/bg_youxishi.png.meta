@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_youxishi": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "666ddd51-ada4-49cb-ab18-033608ab563f",
       "rawTextureUuid": "c04a30d5-c91e-4ef8-9cda-aaa4597b4a81",
       "trimType": "auto",

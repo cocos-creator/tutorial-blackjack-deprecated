@@ -6,14 +6,14 @@
   "filterMode": "bilinear",
   "subMetas": {
     "icon_usercp": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "16189c68-10cc-43d0-a6c0-91ebb2a29917",
       "rawTextureUuid": "bf3d4179-0a3a-45f9-af90-81b6c40213f6",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 0,
+      "offsetX": 0.5,
+      "offsetY": -1,
       "trimX": 1,
       "trimY": 2,
       "width": 54,

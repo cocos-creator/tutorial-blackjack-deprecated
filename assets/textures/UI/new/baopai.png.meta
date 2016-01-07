@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "baopai": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "62c007e7-076e-4e44-a57d-33bd7e7cd350",
       "rawTextureUuid": "6516ced6-a846-40cb-8a87-18ac755f4cba",
       "trimType": "auto",

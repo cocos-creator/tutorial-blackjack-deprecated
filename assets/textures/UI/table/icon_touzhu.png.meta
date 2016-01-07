@@ -6,13 +6,13 @@
   "filterMode": "bilinear",
   "subMetas": {
     "icon_touzhu": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "76520e16-6d3c-478c-b947-d3e8776838e3",
       "rawTextureUuid": "0c6fbbac-75d1-4184-a1f7-53673097343c",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
+      "offsetX": 0.5,
       "offsetY": 0,
       "trimX": 1,
       "trimY": 0,

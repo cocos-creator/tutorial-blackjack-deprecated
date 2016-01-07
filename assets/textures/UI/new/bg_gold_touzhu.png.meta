@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_gold_touzhu": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "efe38028-6772-4b97-935c-1e941403af02",
       "rawTextureUuid": "597dbb72-1de4-4e78-9a26-5457d8f5289f",
       "trimType": "auto",

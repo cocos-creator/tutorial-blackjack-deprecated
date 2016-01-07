@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "txtCountdown": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "22f76932-c1c0-4d9d-912a-b4b73572ca52",
       "rawTextureUuid": "a8c21e40-9766-40e3-bd71-430764306eaf",
       "trimType": "auto",

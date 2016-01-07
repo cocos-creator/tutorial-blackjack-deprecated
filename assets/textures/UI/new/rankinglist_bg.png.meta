@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "rankinglist_bg": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "42b84506-55b4-4b98-8d2e-b3f8cfe7fbf8",
       "rawTextureUuid": "137d1ca6-e90c-440b-9fa2-4b9ffff569f7",
       "trimType": "auto",

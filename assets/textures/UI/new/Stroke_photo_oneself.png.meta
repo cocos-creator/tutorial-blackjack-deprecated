@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "Stroke_photo_oneself": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "2e9b2dc0-65b4-44e5-b624-d61da9ee1095",
       "rawTextureUuid": "2d86a854-63c4-4b90-8b88-a4328b8526c2",
       "trimType": "auto",

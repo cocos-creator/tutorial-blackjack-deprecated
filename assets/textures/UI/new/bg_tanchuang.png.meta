@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_tanchuang": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "8a1e31ac-cc7e-4166-a6d2-8d4edc27d26a",
       "rawTextureUuid": "cfb4ce01-7ab5-4940-8875-dd95a7e6a5e4",
       "trimType": "auto",

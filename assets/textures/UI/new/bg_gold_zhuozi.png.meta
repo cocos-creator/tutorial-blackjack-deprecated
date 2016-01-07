@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_gold_zhuozi": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "db285bfe-a5fd-495c-b8ef-58e38c6133d9",
       "rawTextureUuid": "5e6b366b-3c74-4d00-ada9-35b806f50ba5",
       "trimType": "auto",

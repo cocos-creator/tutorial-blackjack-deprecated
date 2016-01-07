@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_xiamian": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "7aee1866-01db-41aa-afe9-e4a791def6aa",
       "rawTextureUuid": "83cc2086-d713-47a0-8d86-a8d6068b6258",
       "trimType": "auto",

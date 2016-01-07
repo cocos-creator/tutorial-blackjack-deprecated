@@ -6,13 +6,13 @@
   "filterMode": "bilinear",
   "subMetas": {
     "BUST_2": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "206a8269-b59b-4e03-9ae9-8bdc7f93a2c6",
       "rawTextureUuid": "7ef50d83-071e-44e5-9bcb-a54143a90f92",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
+      "offsetX": -1,
       "offsetY": 0,
       "trimX": 11,
       "trimY": 11,

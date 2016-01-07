@@ -6,14 +6,14 @@
   "filterMode": "bilinear",
   "subMetas": {
     "gift_tomato": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "f2358c8d-2743-4f35-ad99-e3a8966334b2",
       "rawTextureUuid": "94413242-2027-4841-9e31-a633601b38a7",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 0,
+      "offsetX": -1.5,
+      "offsetY": 2.5,
       "trimX": 0,
       "trimY": 5,
       "width": 80,

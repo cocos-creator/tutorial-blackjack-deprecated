@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "count-down_shang": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "7b018972-3510-4bc5-9376-1c336f5b42d4",
       "rawTextureUuid": "41275630-9c22-4288-a108-68aa0ff958ce",
       "trimType": "auto",

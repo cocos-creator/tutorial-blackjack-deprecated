@@ -6,14 +6,14 @@
   "filterMode": "bilinear",
   "subMetas": {
     "heitao_big": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "bda5770f-1fca-434f-b5b4-ab99c12b55df",
       "rawTextureUuid": "5228ab68-de35-40f9-8d0e-0bbb788078a5",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 0,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
       "trimX": 1,
       "trimY": 1,
       "width": 52,

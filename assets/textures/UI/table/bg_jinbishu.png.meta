@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_jinbishu": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "022a80ab-4cde-42ca-9e04-8a23745cf138",
       "rawTextureUuid": "caaaf9ff-5036-4232-a8a7-88b80b2e4c88",
       "trimType": "auto",

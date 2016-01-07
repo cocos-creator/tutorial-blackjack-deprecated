@@ -6,14 +6,14 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_huaxin": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "f43ce0ab-058c-412d-af60-77d0834caf29",
       "rawTextureUuid": "631b9e63-d100-4c0c-acf5-70f7814f74f5",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
-      "offsetY": 0,
+      "offsetX": -1,
+      "offsetY": 0.5,
       "trimX": 0,
       "trimY": 0,
       "width": 82,

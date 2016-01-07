@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "heitao_small": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "71d34242-1ca6-4e9c-8258-9ef646e5e856",
       "rawTextureUuid": "9139051d-f174-4c03-92a7-e4a39902fac4",
       "trimType": "auto",

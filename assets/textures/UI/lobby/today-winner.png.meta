@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "today-winner": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "692884a5-76cd-415b-b1bc-f78dff332ba3",
       "rawTextureUuid": "af151800-4ca5-48ab-a798-76e47dcfe49d",
       "trimType": "auto",

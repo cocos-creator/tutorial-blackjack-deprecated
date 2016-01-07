@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "bg_xitongxiaoxi": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "dd16e55f-e6d0-43ed-bb1b-cb930ad18d44",
       "rawTextureUuid": "5cb12a01-28cd-4d14-b409-482e4f948a98",
       "trimType": "auto",

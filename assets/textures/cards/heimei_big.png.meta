@@ -6,7 +6,7 @@
   "filterMode": "bilinear",
   "subMetas": {
     "heimei_big": {
-      "ver": "1.0.0",
+      "ver": "1.0.2",
       "uuid": "2770bfda-c750-4578-a350-94ccac0ada80",
       "rawTextureUuid": "415cc37e-29cf-49d5-9b3b-1d5caf314bbd",
       "trimType": "auto",
