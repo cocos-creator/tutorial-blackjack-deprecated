@@ -15,6 +15,8 @@ cc.Class({
         self.button = self.getComponent(cc.Button);
         self.scaleDownAction = cc.scaleTo(self.transDuration, self.pressedScale);
         self.scaleUpAction = cc.scaleTo(self.transDuration, self.initScale);
+        self.scaleDownAction.retain();
+        self.scaleUpAction.retain();
         function onTouchDown (event) {
             this.stopAllActions();
             audioMng.playButton();
@@ -28,4 +30,9 @@ cc.Class({
         this.node.on('touchend', onTouchUp, this.node);
         this.node.on('touchcancel', onTouchUp, this.node);
     },
+
+    onDestroy: function () {
+        this.scaleUpAction.release();
+        this.scaleDownAction.release();
+    }
 });
