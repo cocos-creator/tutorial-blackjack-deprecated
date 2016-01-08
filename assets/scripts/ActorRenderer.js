@@ -117,8 +117,8 @@ cc.Class({
     },
 
     initCountdown: function () {
-        var countdownUrl = Game.instance.assetMng.texCountdown.getTexture().url;
-        this.sgCountdown = new _ccsg.Sprite(countdownUrl);
+        var countdownTex = Game.instance.assetMng.texCountdown.getTexture();
+        this.sgCountdown = new _ccsg.Sprite(countdownTex);
 
         var progressTimer = new cc.ProgressTimer(this.sgCountdown);
         progressTimer.setName('progressTimer');

@@ -52,8 +52,8 @@ cc.Class({
     },
 
     initCountdown: function () {
-        var countdownUrl = Game.instance.assetMng.texBetCountdown.getTexture().url;
-        this.sgCountdown = new _ccsg.Sprite(countdownUrl);
+        var countdownTex = Game.instance.assetMng.texBetCountdown.getTexture();
+        this.sgCountdown = new _ccsg.Sprite(countdownTex);
         this.sgCountdown.setColor(cc.Color.BLACK);
 
         var progressTimer = new cc.ProgressTimer(this.sgCountdown);
