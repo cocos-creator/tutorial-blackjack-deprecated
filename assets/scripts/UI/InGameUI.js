@@ -26,7 +26,7 @@ cc.Class({
         },
         betCounter: {
             default: null,
-            type: cc.Node
+            type: cc.ProgressBar
         },
         btnStart: {
             default: null,
@@ -48,37 +48,22 @@ cc.Class({
         // this.resultStateUI.active = false;
         this.btnStart.active = false;
         this.betDuration = betDuration;
-        this.progressTimer = this.initCountdown();
-    },
-
-    initCountdown: function () {
-        var countdownTex = Game.instance.assetMng.texBetCountdown.getTexture();
-        this.sgCountdown = new _ccsg.Sprite(countdownTex);
-        this.sgCountdown.setColor(cc.Color.BLACK);
-
-        var progressTimer = new cc.ProgressTimer(this.sgCountdown);
-        progressTimer.setName('progressTimer');
-        progressTimer.setMidpoint(cc.p(0.5, 0.5));
-        progressTimer.setType(cc.ProgressTimer.Type.RADIAL);
-        progressTimer.reverseDir = true;
-        this.betCounter._sgNode.addChild(progressTimer);
-        progressTimer.setPosition(cc.p(0, -this.betCounter.height/2));
-        progressTimer.setPercentage(0);
-
-        return progressTimer;
+        this.betTimer = 0;
+        this.isBetCounting = false;
     },
 
     startCountdown: function() {
-        if (this.progressTimer) {
-            var fromTo = cc.progressFromTo(this.betDuration, 0, 100);
-            this.progressTimer.runAction(fromTo);
+        if (this.betCounter) {
+            this.betTimer = 0;
+            this.isBetCounting = true;
         }
     },
 
     resetCountdown: function() {
-        if (this.progressTimer) {
-            this.progressTimer.stopAllActions();
-            this.progressTimer.setPercentage(100);
+        if (this.betCounter) {
+            this.betTimer = 0;
+            this.isBetCounting = false;
+            this.betCounter.progress = 0;
         }
     },
 
@@ -110,6 +95,13 @@ cc.Class({
 
     // called every frame
     update: function (dt) {
-
+        if (this.isBetCounting) {
+            this.betCounter.progress = this.betTimer/this.betDuration;
+            this.betTimer += dt;
+            if (this.betTimer >= this.betDuration) {
+                this.isBetCounting = false;
+                this.betCounter.progress = 1;
+            }
+        }
     },
 });

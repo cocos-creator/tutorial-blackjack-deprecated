@@ -43,9 +43,9 @@ cc.Class({
             default: null,
             type: cc.Sprite
         },
-        spCountdown: {
+        callCounter: {
             default: null,
-            type: cc.Sprite
+            type: cc.ProgressBar
         },
         labelStakeOnTable: {
             default: null,
@@ -78,7 +78,8 @@ cc.Class({
         this.actor = this.getComponent('Actor');
 
         // nodes
-        this.sgCountdown = null;
+        this.isCounting = false;
+        this.counterTimer = 0;
         this.turnDuration = turnDuration;
 
         this.playerInfo.position = playerInfoPos;
@@ -94,12 +95,21 @@ cc.Class({
 
         this.cardInfo.active = false;
 
-        this.progressTimer = this.initCountdown();
-
         // switch side
         if (switchSide) {
             this.spCardInfo.getComponent('SideSwitcher').switchSide();
             this.spPlayerName.getComponent('SideSwitcher').switchSide();
+        }
+    },
+
+    update: function (dt) {
+        if (this.isCounting) {
+            this.callCounter.progress = this.counterTimer/this.turnDuration;
+            this.counterTimer += dt;
+            if (this.counterTimer >= this.turnDuration) {
+                this.isCounting = false;
+                this.callCounter.progress = 1;
+            }
         }
     },
 
@@ -116,32 +126,18 @@ cc.Class({
         this.labelTotalStake.string = '$' + num;
     },
 
-    initCountdown: function () {
-        var countdownTex = Game.instance.assetMng.texCountdown.getTexture();
-        this.sgCountdown = new _ccsg.Sprite(countdownTex);
-
-        var progressTimer = new cc.ProgressTimer(this.sgCountdown);
-        progressTimer.setName('progressTimer');
-        progressTimer.setMidpoint(cc.p(0.5, 0.5));
-        progressTimer.setType(cc.ProgressTimer.Type.RADIAL);
-        this.playerInfo._sgNode.addChild(progressTimer);
-        progressTimer.setPosition(cc.p(0, 0));
-        progressTimer.setPercentage(0);
-
-        return progressTimer;
-    },
-
     startCountdown: function() {
-        if (this.progressTimer) {
-            var fromTo = cc.progressFromTo(this.turnDuration, 0, 100);
-            this.progressTimer.runAction(fromTo);
+        if (this.callCounter) {
+            this.isCounting = true;
+            this.counterTimer = 0;
         }
     },
 
     resetCountdown: function() {
-        if (this.progressTimer) {
-            this.progressTimer.stopAllActions();
-            this.progressTimer.setPercentage(0);
+        if (this.callCounter) {
+            this.isCounting = false;
+            this.counterTimer = 0;
+            this.callCounter.progress = 0;
         }
     },
 

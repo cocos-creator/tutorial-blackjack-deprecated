@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.0.2</string>
         <key>fileName</key>
-        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/fx_animation.tps</string>
+        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/table.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -72,7 +72,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -84,7 +84,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>assets/atlas/fx_animation.plist</filename>
+                <filename>assets/atlas/table.plist</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -155,7 +155,7 @@
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
-        <enum type="SettingsBase::OutputFormat">RGB565</enum>
+        <enum type="SettingsBase::OutputFormat">RGBA5555</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -176,7 +176,7 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>0</uint>
+            <uint>1</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
@@ -192,8 +192,54 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/animation/blackjack</filename>
-            <filename>assets/textures/animation/bust</filename>
+            <filename>assets/textures/UI/table/1K.png</filename>
+            <filename>assets/textures/UI/table/2K.png</filename>
+            <filename>assets/textures/UI/table/5K.png</filename>
+            <filename>assets/textures/UI/table/10K.png</filename>
+            <filename>assets/textures/UI/table/baopai.png</filename>
+            <filename>assets/textures/UI/table/bg_gift.png</filename>
+            <filename>assets/textures/UI/table/bg_gold_touzhu.png</filename>
+            <filename>assets/textures/UI/table/bg_gold_zhuozi.png</filename>
+            <filename>assets/textures/UI/table/bg_gold(1).png</filename>
+            <filename>assets/textures/UI/table/bg_huaxin.png</filename>
+            <filename>assets/textures/UI/table/bg_inputbox.png</filename>
+            <filename>assets/textures/UI/table/bg_stroke.png</filename>
+            <filename>assets/textures/UI/table/bg_stroke2.png</filename>
+            <filename>assets/textures/UI/table/bg_tanchuang.png</filename>
+            <filename>assets/textures/UI/table/bg_xitongxiaoxi.png</filename>
+            <filename>assets/textures/UI/table/button_blue.png</filename>
+            <filename>assets/textures/UI/table/button_erji.png</filename>
+            <filename>assets/textures/UI/table/button_fasong.png</filename>
+            <filename>assets/textures/UI/table/button_message.png</filename>
+            <filename>assets/textures/UI/table/button_orange.png</filename>
+            <filename>assets/textures/UI/table/daojishi_down.png</filename>
+            <filename>assets/textures/UI/table/daojishi_photo.png</filename>
+            <filename>assets/textures/UI/table/daojishi_up.png</filename>
+            <filename>assets/textures/UI/table/dealer.png</filename>
+            <filename>assets/textures/UI/table/double.png</filename>
+            <filename>assets/textures/UI/table/gift_bucket.png</filename>
+            <filename>assets/textures/UI/table/gift_kiss.png</filename>
+            <filename>assets/textures/UI/table/gift_rose.png</filename>
+            <filename>assets/textures/UI/table/gift_tomato.png</filename>
+            <filename>assets/textures/UI/table/hit.png</filename>
+            <filename>assets/textures/UI/table/icon_boy.png</filename>
+            <filename>assets/textures/UI/table/icon_girl.png</filename>
+            <filename>assets/textures/UI/table/icon_gold_small.png</filename>
+            <filename>assets/textures/UI/table/icon_KO.png</filename>
+            <filename>assets/textures/UI/table/icon_qingkongtouzhu.png</filename>
+            <filename>assets/textures/UI/table/icon_touzhu-.png</filename>
+            <filename>assets/textures/UI/table/icon_usercp.png</filename>
+            <filename>assets/textures/UI/table/input-box.png</filename>
+            <filename>assets/textures/UI/table/paishu.png</filename>
+            <filename>assets/textures/UI/table/send.png</filename>
+            <filename>assets/textures/UI/table/stand.png</filename>
+            <filename>assets/textures/UI/table/Stroke_photo_tanchuang.png</filename>
+            <filename>assets/textures/UI/table/txtCountdown.png</filename>
+            <filename>assets/textures/UI/table/user/circle_1.png</filename>
+            <filename>assets/textures/UI/table/user/circle_2.png</filename>
+            <filename>assets/textures/UI/table/user/circle_3.png</filename>
+            <filename>assets/textures/UI/table/user/circle_4.png</filename>
+            <filename>assets/textures/UI/table/user/circle_5.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

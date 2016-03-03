@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.0.2</string>
         <key>fileName</key>
-        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/fx_animation.tps</string>
+        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/menu.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -72,7 +72,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -84,7 +84,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>assets/atlas/fx_animation.plist</filename>
+                <filename>assets/atlas/menu.plist</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -155,7 +155,7 @@
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
-        <enum type="SettingsBase::OutputFormat">RGB565</enum>
+        <enum type="SettingsBase::OutputFormat">RGBA5555</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -176,7 +176,7 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>0</uint>
+            <uint>1</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
@@ -192,8 +192,28 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/animation/blackjack</filename>
-            <filename>assets/textures/animation/bust</filename>
+            <filename>assets/textures/UI/menu/bg_rankinglist.png</filename>
+            <filename>assets/textures/UI/menu/bg_xiamian.png</filename>
+            <filename>assets/textures/UI/menu/button_jjc.png</filename>
+            <filename>assets/textures/UI/menu/button_ksks.png</filename>
+            <filename>assets/textures/UI/menu/button_zbc.png</filename>
+            <filename>assets/textures/UI/menu/fengexian.png</filename>
+            <filename>assets/textures/UI/menu/icon_guizhe.png</filename>
+            <filename>assets/textures/UI/menu/icon_set.png</filename>
+            <filename>assets/textures/UI/menu/rankinglist_1.png</filename>
+            <filename>assets/textures/UI/menu/rankinglist_2.png</filename>
+            <filename>assets/textures/UI/menu/rankinglist_3.png</filename>
+            <filename>assets/textures/UI/menu/rankinglist_bg.png</filename>
+            <filename>assets/textures/UI/menu/rankinglist_title.png</filename>
+            <filename>assets/textures/UI/menu/Stroke_photo_oneself.png</filename>
+            <filename>assets/textures/UI/menu/Stroke_photo.png</filename>
+            <filename>assets/textures/UI/menu/user-image.png</filename>
+            <filename>assets/textures/UI/menu/user-image2.png</filename>
+            <filename>assets/textures/UI/menu/user-image3.png</filename>
+            <filename>assets/textures/UI/menu/user-image4.png</filename>
+            <filename>assets/textures/UI/menu/user-image5.png</filename>
+            <filename>assets/textures/UI/menu/user-image6.png</filename>
+            <filename>assets/textures/UI/menu/user-image7.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

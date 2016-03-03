@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.0.2</string>
         <key>fileName</key>
-        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/fx_animation.tps</string>
+        <string>/Users/nantas/fireball-x/tutorial/tutorial-blackjack/cards.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -58,7 +58,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">FloydSteinberg</enum>
+        <enum type="SettingsBase::DitherType">FloydSteinbergAlpha</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -72,7 +72,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -84,7 +84,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>assets/atlas/fx_animation.plist</filename>
+                <filename>assets/atlas/card.plist</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -155,7 +155,7 @@
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
-        <enum type="SettingsBase::OutputFormat">RGB565</enum>
+        <enum type="SettingsBase::OutputFormat">RGBA5555</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -176,7 +176,7 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>0</uint>
+            <uint>1</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
@@ -192,8 +192,19 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/animation/blackjack</filename>
-            <filename>assets/textures/animation/bust</filename>
+            <filename>assets/textures/cards/fangkuai_big.png</filename>
+            <filename>assets/textures/cards/fangkuai_small.png</filename>
+            <filename>assets/textures/cards/heimei_big.png</filename>
+            <filename>assets/textures/cards/heimei_small.png</filename>
+            <filename>assets/textures/cards/heitao_big.png</filename>
+            <filename>assets/textures/cards/heitao_small.png</filename>
+            <filename>assets/textures/cards/hongtao_big.png</filename>
+            <filename>assets/textures/cards/hongtao_small.png</filename>
+            <filename>assets/textures/cards/king.png</filename>
+            <filename>assets/textures/cards/kueen.png</filename>
+            <filename>assets/textures/cards/poker_bg.png</filename>
+            <filename>assets/textures/cards/poker_dipai.png</filename>
+            <filename>assets/textures/cards/ranker.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

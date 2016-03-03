@@ -12,6 +12,7 @@ cc.Class({
     },
 
     playFX: function (name) { // name can be 'blackjack' or 'bust'
+        this.anim.stop();
         this.anim.play(name);
     },
 
