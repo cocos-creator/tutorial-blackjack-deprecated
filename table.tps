@@ -192,54 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/UI/table/1K.png</filename>
-            <filename>assets/textures/UI/table/2K.png</filename>
-            <filename>assets/textures/UI/table/5K.png</filename>
-            <filename>assets/textures/UI/table/10K.png</filename>
-            <filename>assets/textures/UI/table/baopai.png</filename>
-            <filename>assets/textures/UI/table/bg_gift.png</filename>
-            <filename>assets/textures/UI/table/bg_gold_touzhu.png</filename>
-            <filename>assets/textures/UI/table/bg_gold_zhuozi.png</filename>
-            <filename>assets/textures/UI/table/bg_gold(1).png</filename>
-            <filename>assets/textures/UI/table/bg_huaxin.png</filename>
-            <filename>assets/textures/UI/table/bg_inputbox.png</filename>
-            <filename>assets/textures/UI/table/bg_stroke.png</filename>
-            <filename>assets/textures/UI/table/bg_stroke2.png</filename>
-            <filename>assets/textures/UI/table/bg_tanchuang.png</filename>
-            <filename>assets/textures/UI/table/bg_xitongxiaoxi.png</filename>
-            <filename>assets/textures/UI/table/button_blue.png</filename>
-            <filename>assets/textures/UI/table/button_erji.png</filename>
-            <filename>assets/textures/UI/table/button_fasong.png</filename>
-            <filename>assets/textures/UI/table/button_message.png</filename>
-            <filename>assets/textures/UI/table/button_orange.png</filename>
-            <filename>assets/textures/UI/table/daojishi_down.png</filename>
-            <filename>assets/textures/UI/table/daojishi_photo.png</filename>
-            <filename>assets/textures/UI/table/daojishi_up.png</filename>
-            <filename>assets/textures/UI/table/dealer.png</filename>
-            <filename>assets/textures/UI/table/double.png</filename>
-            <filename>assets/textures/UI/table/gift_bucket.png</filename>
-            <filename>assets/textures/UI/table/gift_kiss.png</filename>
-            <filename>assets/textures/UI/table/gift_rose.png</filename>
-            <filename>assets/textures/UI/table/gift_tomato.png</filename>
-            <filename>assets/textures/UI/table/hit.png</filename>
-            <filename>assets/textures/UI/table/icon_boy.png</filename>
-            <filename>assets/textures/UI/table/icon_girl.png</filename>
-            <filename>assets/textures/UI/table/icon_gold_small.png</filename>
-            <filename>assets/textures/UI/table/icon_KO.png</filename>
-            <filename>assets/textures/UI/table/icon_qingkongtouzhu.png</filename>
-            <filename>assets/textures/UI/table/icon_touzhu-.png</filename>
-            <filename>assets/textures/UI/table/icon_usercp.png</filename>
-            <filename>assets/textures/UI/table/input-box.png</filename>
-            <filename>assets/textures/UI/table/paishu.png</filename>
-            <filename>assets/textures/UI/table/send.png</filename>
-            <filename>assets/textures/UI/table/stand.png</filename>
-            <filename>assets/textures/UI/table/Stroke_photo_tanchuang.png</filename>
-            <filename>assets/textures/UI/table/txtCountdown.png</filename>
-            <filename>assets/textures/UI/table/user/circle_1.png</filename>
-            <filename>assets/textures/UI/table/user/circle_2.png</filename>
-            <filename>assets/textures/UI/table/user/circle_3.png</filename>
-            <filename>assets/textures/UI/table/user/circle_4.png</filename>
-            <filename>assets/textures/UI/table/user/circle_5.png</filename>
+            <filename>original-textures/table</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

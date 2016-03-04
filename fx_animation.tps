@@ -155,7 +155,7 @@
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
-        <enum type="SettingsBase::OutputFormat">RGB565</enum>
+        <enum type="SettingsBase::OutputFormat">RGBA4444</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -192,8 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/animation/blackjack</filename>
-            <filename>assets/textures/animation/bust</filename>
+            <filename>original-textures/animation</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

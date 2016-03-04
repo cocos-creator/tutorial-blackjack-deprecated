@@ -7,10 +7,11 @@
     "height": 1114
   },
   "type": "Texture Packer",
+  "rawTexturePath": "/Users/nantas/fireball-x/tutorial/tutorial-blackjack/assets/atlas/fx_animation.png",
   "subMetas": {
-    "BLACK JACK_1.png": {
+    "blackjack-BLACK JACK_1.png": {
       "ver": "1.0.2",
-      "uuid": "25f2c071-4337-4d96-93e3-8192f7f1e662",
+      "uuid": "8b521e1b-61b1-4534-92f6-1a6122c7d8a2",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -28,9 +29,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_10.png": {
+    "blackjack-BLACK JACK_10.png": {
       "ver": "1.0.2",
-      "uuid": "66ae228b-5470-412f-95b4-15d8ba3a2da4",
+      "uuid": "db5f6c35-a5f1-4122-84b0-4f3d0325a806",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -48,9 +49,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_11.png": {
+    "blackjack-BLACK JACK_11.png": {
       "ver": "1.0.2",
-      "uuid": "4c1cc814-4d7c-4bcb-8b5b-51ad2102aed6",
+      "uuid": "6becbe79-30f7-4787-ba69-e2ba92a37887",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -68,9 +69,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_12.png": {
+    "blackjack-BLACK JACK_12.png": {
       "ver": "1.0.2",
-      "uuid": "2da37202-a83e-4c74-b48e-d4256c050559",
+      "uuid": "9ba7d36f-d9e1-49c4-a90f-56e883d3a3c2",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -88,9 +89,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_13.png": {
+    "blackjack-BLACK JACK_13.png": {
       "ver": "1.0.2",
-      "uuid": "f0498ea8-7f56-4159-8c13-cde9770fb59c",
+      "uuid": "2885715a-3e6d-47ca-8cb7-58c014720f25",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -108,9 +109,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_14.png": {
+    "blackjack-BLACK JACK_14.png": {
       "ver": "1.0.2",
-      "uuid": "fa521814-43b1-4d5d-8993-5df8efdca93f",
+      "uuid": "caea59ac-ff6a-46c7-9291-f2becab3bc6b",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -128,9 +129,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_15.png": {
+    "blackjack-BLACK JACK_15.png": {
       "ver": "1.0.2",
-      "uuid": "1c61f2d4-1d11-4fbd-ad8b-27619ca3e49c",
+      "uuid": "c9af549f-439f-4d4f-9c54-472dce04ed05",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -148,9 +149,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_16.png": {
+    "blackjack-BLACK JACK_16.png": {
       "ver": "1.0.2",
-      "uuid": "c629b2dc-81de-45ab-b9ea-9d1b24b9affa",
+      "uuid": "1309d585-c0f2-4601-8dea-d48f4c01d237",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -168,9 +169,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_17.png": {
+    "blackjack-BLACK JACK_17.png": {
       "ver": "1.0.2",
-      "uuid": "08b4ca98-b8bf-4327-8688-d3919c969a65",
+      "uuid": "9656c0dc-8b24-413e-b2b6-df23a9f8cd5a",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -188,9 +189,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_18.png": {
+    "blackjack-BLACK JACK_18.png": {
       "ver": "1.0.2",
-      "uuid": "b7d24aec-04b2-4fdf-81ba-139f5473b8c9",
+      "uuid": "472a6fd0-07b9-4ca2-a4ef-9e3b7ba87a2b",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -208,9 +209,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_19.png": {
+    "blackjack-BLACK JACK_19.png": {
       "ver": "1.0.2",
-      "uuid": "a9f6d328-5f7c-4974-9bfe-d92a3baf33df",
+      "uuid": "d5160333-6fb7-4c7c-b78b-c378a51ae2eb",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -228,9 +229,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_2.png": {
+    "blackjack-BLACK JACK_2.png": {
       "ver": "1.0.2",
-      "uuid": "8a9eb3e5-7309-41e2-9ae9-ffa37e75d56f",
+      "uuid": "7b4c606e-6bed-4160-abcb-ab953ce0e4fb",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -248,9 +249,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_20.png": {
+    "blackjack-BLACK JACK_20.png": {
       "ver": "1.0.2",
-      "uuid": "7494a478-db65-4ccd-914a-f8b8ee5e0683",
+      "uuid": "08c0fb53-1388-4d72-a804-cbd574ab839d",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -268,9 +269,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_21.png": {
+    "blackjack-BLACK JACK_21.png": {
       "ver": "1.0.2",
-      "uuid": "aef97723-ea7d-4eeb-92d1-85ab2976d951",
+      "uuid": "1da36c61-b0dc-47ef-ba9f-14af72e35b56",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -288,9 +289,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_22.png": {
+    "blackjack-BLACK JACK_22.png": {
       "ver": "1.0.2",
-      "uuid": "2dfd6eb0-1c6a-48f9-8dd4-7934709fb6e6",
+      "uuid": "197b5d58-ab02-4c72-b992-9df9805bd61c",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -308,9 +309,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_3.png": {
+    "blackjack-BLACK JACK_3.png": {
       "ver": "1.0.2",
-      "uuid": "b2dca3f4-f2fe-42ef-802d-29b991538207",
+      "uuid": "2ff5cdd9-9085-4a24-a8d5-7a41a4f13d8f",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -328,9 +329,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_4.png": {
+    "blackjack-BLACK JACK_4.png": {
       "ver": "1.0.2",
-      "uuid": "48f0cdf8-ab3c-46f8-ae99-c648970a59ad",
+      "uuid": "9096406d-0e15-4c94-bd7e-9005a6b47c1d",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -348,9 +349,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_5.png": {
+    "blackjack-BLACK JACK_5.png": {
       "ver": "1.0.2",
-      "uuid": "a09e43e6-9915-4a72-bc45-c5cbcb31248c",
+      "uuid": "e67c656e-c0df-446d-80d6-daf415131bb3",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -368,9 +369,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_6.png": {
+    "blackjack-BLACK JACK_6.png": {
       "ver": "1.0.2",
-      "uuid": "51c38747-4fc8-40cc-9406-8d59b363dd40",
+      "uuid": "2c6a517f-7676-4995-a1b0-acfea75e87cb",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -388,9 +389,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_7.png": {
+    "blackjack-BLACK JACK_7.png": {
       "ver": "1.0.2",
-      "uuid": "21989965-c62d-468f-877c-67d2b1e8c2b9",
+      "uuid": "de46554f-173d-4e33-97f3-3341e77deaac",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -408,9 +409,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_8.png": {
+    "blackjack-BLACK JACK_8.png": {
       "ver": "1.0.2",
-      "uuid": "8f463e17-eae3-4f23-8742-779c30d4f7ce",
+      "uuid": "04bf6704-51da-439b-bf34-2774ec09a6ca",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -428,9 +429,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BLACK JACK_9.png": {
+    "blackjack-BLACK JACK_9.png": {
       "ver": "1.0.2",
-      "uuid": "5b2d2da3-0542-46a4-a3fd-f8e618ddc13b",
+      "uuid": "7602a3e1-e284-4b77-a535-1998a229f141",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -448,9 +449,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_1.png": {
+    "bust-BUST_1.png": {
       "ver": "1.0.2",
-      "uuid": "ebbd79b2-1b92-4ed6-b588-5d682800f480",
+      "uuid": "3c9f63d9-e2f3-4a7d-92ff-b0cb86283d83",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -468,9 +469,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_10.png": {
+    "bust-BUST_10.png": {
       "ver": "1.0.2",
-      "uuid": "3edd8e3d-849e-4e6a-b1c0-1347440c76d9",
+      "uuid": "5184bf31-ecc9-43aa-aa70-7954a3b4dc41",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -488,9 +489,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_2.png": {
+    "bust-BUST_2.png": {
       "ver": "1.0.2",
-      "uuid": "bbb441c8-9e57-410d-8135-06e696cd5c7e",
+      "uuid": "579508e4-abc4-48fc-b118-1624326e2df0",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -508,9 +509,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_3.png": {
+    "bust-BUST_3.png": {
       "ver": "1.0.2",
-      "uuid": "d8d0d0b2-909c-43d8-9fac-3ba2c8afd012",
+      "uuid": "c70118b0-8da6-4ac6-a329-bd9aa47662b4",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -528,9 +529,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_4.png": {
+    "bust-BUST_4.png": {
       "ver": "1.0.2",
-      "uuid": "8cfa0222-94e6-492e-8960-3947c3f5283d",
+      "uuid": "624d760d-39fa-428f-aec5-30839d5ba9bd",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -548,9 +549,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_5.png": {
+    "bust-BUST_5.png": {
       "ver": "1.0.2",
-      "uuid": "27b3c84a-a1f5-43e2-98b4-5cd667e8ea81",
+      "uuid": "b272b94d-dbe2-4c43-ae41-96fd15260c6d",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -568,9 +569,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_6.png": {
+    "bust-BUST_6.png": {
       "ver": "1.0.2",
-      "uuid": "d6a78509-dfb9-4498-a40b-960c9e3a8496",
+      "uuid": "1f4d3e89-fda5-4c04-94bf-831aaf4d2c11",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -588,9 +589,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_7.png": {
+    "bust-BUST_7.png": {
       "ver": "1.0.2",
-      "uuid": "17f12ec8-7ff3-4cc1-96d7-fa3f6121910e",
+      "uuid": "4e98314c-f4df-483d-892b-9488ee2a82d2",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -608,9 +609,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_8.png": {
+    "bust-BUST_8.png": {
       "ver": "1.0.2",
-      "uuid": "1ebae8f9-2249-41d5-af87-ce7c485a4e2f",
+      "uuid": "ddc1ab43-c199-4535-9d25-7bc2e76e9775",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,
@@ -628,9 +629,9 @@
       "spriteType": "normal",
       "subMetas": {}
     },
-    "BUST_9.png": {
+    "bust-BUST_9.png": {
       "ver": "1.0.2",
-      "uuid": "36d4dac9-139d-4f64-8094-ba541b419f5f",
+      "uuid": "fdeef1a0-629e-4f0f-b786-3afc61cd2404",
       "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
       "trimType": "auto",
       "trimThreshold": 1,

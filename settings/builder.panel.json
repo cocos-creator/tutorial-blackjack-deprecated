@@ -1,8 +1,7 @@
 {
   "excludeScenes": [],
   "packageName": "org.cocos2d.tutorialblackjack",
-  "platform": "mac",
+  "platform": "web-mobile",
   "startScene": "8a546935-70d4-42d2-a051-8d0e76f28008",
-  "startSceneUuid": "8a546935-70d4-42d2-a051-8d0e76f28008",
   "title": "tutorial_blackjack"
 }

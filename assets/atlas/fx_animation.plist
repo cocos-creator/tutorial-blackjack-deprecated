@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>BLACK JACK_1.png</key>
+            <key>blackjack/BLACK JACK_1.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -19,7 +19,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_10.png</key>
+            <key>blackjack/BLACK JACK_10.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -34,7 +34,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_11.png</key>
+            <key>blackjack/BLACK JACK_11.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -49,7 +49,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_12.png</key>
+            <key>blackjack/BLACK JACK_12.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -64,7 +64,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_13.png</key>
+            <key>blackjack/BLACK JACK_13.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -79,7 +79,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_14.png</key>
+            <key>blackjack/BLACK JACK_14.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -94,7 +94,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_15.png</key>
+            <key>blackjack/BLACK JACK_15.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -109,7 +109,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_16.png</key>
+            <key>blackjack/BLACK JACK_16.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -124,7 +124,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_17.png</key>
+            <key>blackjack/BLACK JACK_17.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -139,7 +139,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_18.png</key>
+            <key>blackjack/BLACK JACK_18.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -154,7 +154,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_19.png</key>
+            <key>blackjack/BLACK JACK_19.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -169,7 +169,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_2.png</key>
+            <key>blackjack/BLACK JACK_2.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -184,7 +184,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_20.png</key>
+            <key>blackjack/BLACK JACK_20.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -199,7 +199,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_21.png</key>
+            <key>blackjack/BLACK JACK_21.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -214,7 +214,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_22.png</key>
+            <key>blackjack/BLACK JACK_22.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -229,7 +229,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_3.png</key>
+            <key>blackjack/BLACK JACK_3.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -244,7 +244,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_4.png</key>
+            <key>blackjack/BLACK JACK_4.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -259,7 +259,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_5.png</key>
+            <key>blackjack/BLACK JACK_5.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -274,7 +274,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_6.png</key>
+            <key>blackjack/BLACK JACK_6.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -289,7 +289,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BLACK JACK_7.png</key>
+            <key>blackjack/BLACK JACK_7.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -304,7 +304,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_8.png</key>
+            <key>blackjack/BLACK JACK_8.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -319,7 +319,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BLACK JACK_9.png</key>
+            <key>blackjack/BLACK JACK_9.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -334,7 +334,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_1.png</key>
+            <key>bust/BUST_1.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -349,7 +349,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_10.png</key>
+            <key>bust/BUST_10.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -364,7 +364,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_2.png</key>
+            <key>bust/BUST_2.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -379,7 +379,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_3.png</key>
+            <key>bust/BUST_3.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -394,7 +394,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>BUST_4.png</key>
+            <key>bust/BUST_4.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -409,7 +409,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_5.png</key>
+            <key>bust/BUST_5.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -424,7 +424,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_6.png</key>
+            <key>bust/BUST_6.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -439,7 +439,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_7.png</key>
+            <key>bust/BUST_7.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -454,7 +454,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_8.png</key>
+            <key>bust/BUST_8.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -469,7 +469,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>BUST_9.png</key>
+            <key>bust/BUST_9.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -494,7 +494,7 @@
             <key>size</key>
             <string>{1020,1114}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:ee30500f06fddda3a4aac99afa404bdc:a113de2d2eeced5b25528e59da25f277:d42d1a5023d9d2f80ee1865ee2123c11$</string>
+            <string>$TexturePacker:SmartUpdate:49dc968fb7117c6b1af71431080ae47d:a113de2d2eeced5b25528e59da25f277:d42d1a5023d9d2f80ee1865ee2123c11$</string>
             <key>textureFileName</key>
             <string>fx_animation.png</string>
         </dict>

@@ -319,81 +319,6 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>circle_1.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{130,130}</string>
-                <key>spriteSourceSize</key>
-                <string>{130,130}</string>
-                <key>textureRect</key>
-                <string>{{139,1364},{130,130}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>circle_2.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{130,130}</string>
-                <key>spriteSourceSize</key>
-                <string>{130,130}</string>
-                <key>textureRect</key>
-                <string>{{195,1049},{130,130}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>circle_3.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{130,130}</string>
-                <key>spriteSourceSize</key>
-                <string>{130,130}</string>
-                <key>textureRect</key>
-                <string>{{311,531},{130,130}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>circle_4.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{130,130}</string>
-                <key>spriteSourceSize</key>
-                <string>{130,130}</string>
-                <key>textureRect</key>
-                <string>{{316,753},{130,130}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>circle_5.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{130,130}</string>
-                <key>spriteSourceSize</key>
-                <string>{130,130}</string>
-                <key>textureRect</key>
-                <string>{{349,885},{130,130}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
             <key>daojishi_down.png</key>
             <dict>
                 <key>aliases</key>
@@ -724,6 +649,81 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
+            <key>user/circle_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{130,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{130,130}</string>
+                <key>textureRect</key>
+                <string>{{139,1364},{130,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>user/circle_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{130,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{130,130}</string>
+                <key>textureRect</key>
+                <string>{{195,1049},{130,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>user/circle_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{130,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{130,130}</string>
+                <key>textureRect</key>
+                <string>{{311,531},{130,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>user/circle_4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{130,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{130,130}</string>
+                <key>textureRect</key>
+                <string>{{316,753},{130,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>user/circle_5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{130,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{130,130}</string>
+                <key>textureRect</key>
+                <string>{{349,885},{130,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
         </dict>
         <key>metadata</key>
         <dict>
@@ -734,7 +734,7 @@
             <key>size</key>
             <string>{507,1504}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:3f760b95f6471023a0f34f48c5954ab4:7d09a3322424982fedbb0f6824e3f5b3:9f125aa71c5c2418d32e9eacc87866c8$</string>
+            <string>$TexturePacker:SmartUpdate:f8405780d97c640e8ea87077bcdcd91f:94f4da1f81f94500509fefe236ae699d:9f125aa71c5c2418d32e9eacc87866c8$</string>
             <key>textureFileName</key>
             <string>table.png</string>
         </dict>

@@ -192,28 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/UI/menu/bg_rankinglist.png</filename>
-            <filename>assets/textures/UI/menu/bg_xiamian.png</filename>
-            <filename>assets/textures/UI/menu/button_jjc.png</filename>
-            <filename>assets/textures/UI/menu/button_ksks.png</filename>
-            <filename>assets/textures/UI/menu/button_zbc.png</filename>
-            <filename>assets/textures/UI/menu/fengexian.png</filename>
-            <filename>assets/textures/UI/menu/icon_guizhe.png</filename>
-            <filename>assets/textures/UI/menu/icon_set.png</filename>
-            <filename>assets/textures/UI/menu/rankinglist_1.png</filename>
-            <filename>assets/textures/UI/menu/rankinglist_2.png</filename>
-            <filename>assets/textures/UI/menu/rankinglist_3.png</filename>
-            <filename>assets/textures/UI/menu/rankinglist_bg.png</filename>
-            <filename>assets/textures/UI/menu/rankinglist_title.png</filename>
-            <filename>assets/textures/UI/menu/Stroke_photo_oneself.png</filename>
-            <filename>assets/textures/UI/menu/Stroke_photo.png</filename>
-            <filename>assets/textures/UI/menu/user-image.png</filename>
-            <filename>assets/textures/UI/menu/user-image2.png</filename>
-            <filename>assets/textures/UI/menu/user-image3.png</filename>
-            <filename>assets/textures/UI/menu/user-image4.png</filename>
-            <filename>assets/textures/UI/menu/user-image5.png</filename>
-            <filename>assets/textures/UI/menu/user-image6.png</filename>
-            <filename>assets/textures/UI/menu/user-image7.png</filename>
+            <filename>original-textures/menu</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -7,6 +7,7 @@
     "height": 256
   },
   "type": "Texture Packer",
+  "rawTexturePath": "/Users/nantas/fireball-x/tutorial/tutorial-blackjack/assets/atlas/card.png",
   "subMetas": {
     "fangkuai_big.png": {
       "ver": "1.0.2",

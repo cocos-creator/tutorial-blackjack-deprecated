@@ -15,7 +15,7 @@
                 <key>spriteSourceSize</key>
                 <string>{70,42}</string>
                 <key>textureRect</key>
-                <string>{{1,189},{70,42}}</string>
+                <string>{{123,789},{70,42}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -30,9 +30,9 @@
                 <key>spriteSourceSize</key>
                 <string>{84,64}</string>
                 <key>textureRect</key>
-                <string>{{1,123},{84,64}}</string>
+                <string>{{123,703},{84,64}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>icon_.png</key>
             <dict>
@@ -45,7 +45,7 @@
                 <key>spriteSourceSize</key>
                 <string>{30,30}</string>
                 <key>textureRect</key>
-                <string>{{87,173},{30,30}}</string>
+                <string>{{253,794},{30,30}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -60,7 +60,7 @@
                 <key>spriteSourceSize</key>
                 <string>{33,48}</string>
                 <key>textureRect</key>
-                <string>{{87,123},{33,48}}</string>
+                <string>{{259,744},{33,48}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -75,9 +75,9 @@
                 <key>spriteSourceSize</key>
                 <string>{61,56}</string>
                 <key>textureRect</key>
-                <string>{{59,257},{61,56}}</string>
+                <string>{{189,703},{61,56}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>icon_gold_big.png</key>
             <dict>
@@ -90,7 +90,7 @@
                 <key>spriteSourceSize</key>
                 <string>{60,56}</string>
                 <key>textureRect</key>
-                <string>{{1,257},{60,56}}</string>
+                <string>{{195,766},{60,56}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -105,7 +105,22 @@
                 <key>spriteSourceSize</key>
                 <string>{50,39}</string>
                 <key>textureRect</key>
-                <string>{{73,205},{50,39}}</string>
+                <string>{{247,703},{50,39}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>screen_rotation.jpg</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{700,299}</string>
+                <key>spriteSourceSize</key>
+                <string>{700,299}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{700,299}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -120,7 +135,7 @@
                 <key>spriteSourceSize</key>
                 <string>{10,10}</string>
                 <key>textureRect</key>
-                <string>{{73,189},{10,10}}</string>
+                <string>{{247,744},{10,10}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -135,7 +150,7 @@
                 <key>spriteSourceSize</key>
                 <string>{120,120}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{120,120}}</string>
+                <string>{{1,703},{120,120}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -147,9 +162,9 @@
             <key>realTextureFileName</key>
             <string>shared.png</string>
             <key>size</key>
-            <string>{122,318}</string>
+            <string>{301,832}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:9d9c78f7d55fde9a631ae2a07fa03c98:ec948474819d2640ef1c00cb7862d508:2c95ddc0e53977c10ce48c8c98b5618b$</string>
+            <string>$TexturePacker:SmartUpdate:3b064dc840c34fe67ebbaec1c5d439f1:7851ca627bc6eb077067036ffea00d9b:2c95ddc0e53977c10ce48c8c98b5618b$</string>
             <key>textureFileName</key>
             <string>shared.png</string>
         </dict>

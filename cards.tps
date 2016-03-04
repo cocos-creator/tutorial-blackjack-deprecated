@@ -192,19 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/cards/fangkuai_big.png</filename>
-            <filename>assets/textures/cards/fangkuai_small.png</filename>
-            <filename>assets/textures/cards/heimei_big.png</filename>
-            <filename>assets/textures/cards/heimei_small.png</filename>
-            <filename>assets/textures/cards/heitao_big.png</filename>
-            <filename>assets/textures/cards/heitao_small.png</filename>
-            <filename>assets/textures/cards/hongtao_big.png</filename>
-            <filename>assets/textures/cards/hongtao_small.png</filename>
-            <filename>assets/textures/cards/king.png</filename>
-            <filename>assets/textures/cards/kueen.png</filename>
-            <filename>assets/textures/cards/poker_bg.png</filename>
-            <filename>assets/textures/cards/poker_dipai.png</filename>
-            <filename>assets/textures/cards/ranker.png</filename>
+            <filename>original-textures/cards</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

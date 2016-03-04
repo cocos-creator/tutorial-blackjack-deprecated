@@ -192,15 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>assets/textures/UI/shared/bg_gold.png</filename>
-            <filename>assets/textures/UI/shared/bg_icon.png</filename>
-            <filename>assets/textures/UI/shared/icon_.png</filename>
-            <filename>assets/textures/UI/shared/icon_back.png</filename>
-            <filename>assets/textures/UI/shared/icon_diamond.png</filename>
-            <filename>assets/textures/UI/shared/icon_gold_big.png</filename>
-            <filename>assets/textures/UI/shared/icon_message.png</filename>
-            <filename>assets/textures/UI/shared/singleColor.png</filename>
-            <filename>assets/textures/UI/shared/user_image.png</filename>
+            <filename>original-textures/shared</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
