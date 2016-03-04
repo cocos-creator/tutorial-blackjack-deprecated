@@ -2,34 +2,13 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        spRankBG: {
-            default: null,
-            type: cc.Sprite
-        },
-        labelRank: {
-            default: null,
-            type: cc.Label
-        },
-        labelPlayerName: {
-            default: null,
-            type: cc.Label
-        },
-        labelGold: {
-            default: null,
-            type: cc.Label
-        },
-        spPlayerPhoto: {
-            default: null,
-            type: cc.Sprite
-        },
-        texRankBG: {
-            default: [],
-            type: cc.SpriteFrame
-        },
-        texPlayerPhoto: {
-            default: [],
-            type: cc.SpriteFrame
-        }
+        spRankBG: cc.Sprite,
+        labelRank: cc.Label,
+        labelPlayerName: cc.Label,
+        labelGold: cc.Label,
+        spPlayerPhoto: cc.Sprite,
+        texRankBG: cc.SpriteFrame,
+        texPlayerPhoto: cc.SpriteFrame
         // ...
     },
 

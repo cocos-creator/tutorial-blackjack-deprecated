@@ -3,33 +3,15 @@ cc.Class({
 
     properties: {
         // nodes
-        point: {
-            default: null,
-            type: cc.Label
-        },
-        suit: {
-            default: null,
-            type: cc.Sprite
-        },
-        mainPic: {
-            default: null,
-            type: cc.Sprite
-        },
-        cardBG: {
-            default: null,
-            type: cc.Sprite
-        },
+        point: cc.Label,
+        suit: cc.Sprite,
+        mainPic: cc.Sprite,
+        cardBG: cc.Sprite,
         // resources
         redTextColor: cc.Color.WHITE,
         blackTextColor: cc.Color.WHITE,
-        texFrontBG: {
-            default: null,
-            type: cc.SpriteFrame
-        },
-        texBackBG: {
-            default: null,
-            type: cc.SpriteFrame
-        },
+        texFrontBG: cc.SpriteFrame,
+        texBackBG: cc.SpriteFrame,
         texFaces: {
             default: [],
             type: cc.SpriteFrame

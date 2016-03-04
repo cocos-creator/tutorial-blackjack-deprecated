@@ -7,66 +7,24 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        playerInfo: {
-            default: null,
-            type: cc.Node
-        },
-        stakeOnTable: {
-            default: null,
-            type: cc.Node
-        },
-        cardInfo: {
-            default: null,
-            type: cc.Node
-        },
-        cardPrefab: {
-            default: null,
-            type: cc.Prefab
-        },
-        anchorCards: {
-            default: null,
-            type: cc.Node
-        },
-        spPlayerName: {
-            default: null,
-            type: cc.Sprite
-        },
-        labelPlayerName: {
-            default: null,
-            type: cc.Label
-        },
-        labelTotalStake: {
-            default: null,
-            type: cc.Label
-        },
-        spPlayerPhoto: {
-            default: null,
-            type: cc.Sprite
-        },
-        callCounter: {
-            default: null,
-            type: cc.ProgressBar
-        },
-        labelStakeOnTable: {
-            default: null,
-            type: cc.Label
-        },
+        playerInfo: cc.Node,
+        stakeOnTable: cc.Node,
+        cardInfo: cc.Node,
+        cardPrefab: cc.Prefab,
+        anchorCards: cc.Node,
+        spPlayerName: cc.Sprite,
+        labelPlayerName: cc.Label,
+        labelTotalStake: cc.Label,
+        spPlayerPhoto: cc.Sprite,
+        callCounter: cc.ProgressBar,
+        labelStakeOnTable: cc.Label,
         spChips: {
             default: [],
             type: cc.Sprite
         },
-        labelCardInfo: {
-            default: null,
-            type: cc.Label
-        },
-        spCardInfo: {
-            default: null,
-            type: cc.Sprite
-        },
-        animFX: {
-            default: null,
-            type: cc.Node
-        },
+        labelCardInfo: cc.Label,
+        spCardInfo: cc.Sprite,
+        animFX: cc.Node,
         cardSpace: 0
     },
 

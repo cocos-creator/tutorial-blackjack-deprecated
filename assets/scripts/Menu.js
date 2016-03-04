@@ -2,10 +2,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        audioMng: {
-            default: null,
-            type: cc.Node
-        }
+        audioMng: cc.Node
     },
 
     // use this for initialization

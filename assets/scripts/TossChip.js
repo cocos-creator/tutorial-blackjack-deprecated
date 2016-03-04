@@ -2,10 +2,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        anim: {
-            default: null,
-            type: cc.Animation
-        }
+        anim: cc.Animation
     },
 
     // use this for initialization

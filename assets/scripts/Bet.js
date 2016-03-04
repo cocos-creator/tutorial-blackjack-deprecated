@@ -4,10 +4,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        chipPrefab: {
-            default: null,
-            type: cc.Prefab
-        },
+        chipPrefab: cc.Prefab,
         btnChips: {
             default: [],
             type: cc.Node
@@ -16,10 +13,7 @@ cc.Class({
             default: [],
             type: 'Integer'
         },
-        anchorChipToss: {
-            default: null,
-            type: cc.Node
-        }
+        anchorChipToss: cc.Node
     },
 
     // use this for initialization

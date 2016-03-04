@@ -12,30 +12,12 @@ var Game = cc.Class({
             default: [],
             type: cc.Node
         },
-        playerPrefab: {
-            default: null,
-            type: cc.Prefab
-        },
-        dealer: {
-            default: null,
-            type: cc.Node
-        },
-        inGameUI: {
-            default: null,
-            type: cc.Node
-        },
-        betUI: {
-            default: null,
-            type: cc.Node
-        },
-        assetMng: {
-            default: null,
-            type: cc.Node
-        },
-        audioMng: {
-            default: null,
-            type: cc.Node
-        },
+        playerPrefab: cc.Prefab,
+        dealer: cc.Node,
+        inGameUI: cc.Node,
+        betUI: cc.Node,
+        assetMng: cc.Node,
+        audioMng: cc.Node,
         turnDuration: 0,
         betDuration: 0,
         totalChipsNum: 0,

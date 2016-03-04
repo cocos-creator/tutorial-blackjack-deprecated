@@ -4,14 +4,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        scrollView: {
-            default: null,
-            type: cc.ScrollView
-        },
-        prefabRankItem: {
-            default: null,
-            type: cc.Prefab
-        },
+        scrollView: cc.ScrollView,
+        prefabRankItem: cc.Prefab,
         rankCount: 0
     },
 

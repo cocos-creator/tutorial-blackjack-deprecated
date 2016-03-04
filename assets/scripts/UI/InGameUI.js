@@ -4,38 +4,14 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        panelChat: {
-            default: null,
-            type: cc.Node
-        },
-        panelSocial: {
-            default: null,
-            type: cc.Node
-        },
-        betStateUI: {
-            default: null,
-            type: cc.Node
-        },
-        gameStateUI: {
-            default: null,
-            type: cc.Node
-        },
-        resultTxt: {
-            default: null,
-            type: cc.Label
-        },
-        betCounter: {
-            default: null,
-            type: cc.ProgressBar
-        },
-        btnStart: {
-            default: null,
-            type: cc.Node
-        },
-        labelTotalChips: {
-            default: null,
-            type: cc.Label
-        }
+        panelChat: cc.Node,
+        panelSocial: cc.Node,
+        betStateUI: cc.Node,
+        gameStateUI: cc.Node,
+        resultTxt: cc.Label,
+        betCounter: cc.ProgressBar,
+        btnStart: cc.Node,
+        labelTotalChips: cc.Label
     },
 
     // use this for initialization
