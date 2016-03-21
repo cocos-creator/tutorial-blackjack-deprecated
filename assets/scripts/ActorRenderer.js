@@ -117,19 +117,20 @@ cc.Class({
         var index = this.actor.cards.length - 1;
         var endPos = cc.p(this.cardSpace * index, 0);
         newCard.node.setPosition(startPos);
+        this._updatePointPos(endPos.x);
 
         var moveAction = cc.moveTo(0.5, endPos);
-        var callback = cc.callFunc(this._onDealEnd, this, this.cardSpace * index);
+        var callback = cc.callFunc(this._onDealEnd, this);
         newCard.node.runAction(cc.sequence(moveAction, callback));
     },
 
-    _onDealEnd: function(target, pointX) {
+    _onDealEnd: function(target) {
         this.resetCountdown();
         if(this.actor.state === ActorPlayingState.Normal) {
             this.startCountdown();
         }
         this.updatePoint();
-        this._updatePointPos(pointX);
+        // this._updatePointPos(pointX);
     },
 
     onReset: function () {
@@ -162,7 +163,8 @@ cc.Class({
     },
 
     _updatePointPos: function (xPos) {
-        this.cardInfo.setPositionX(xPos + 50);
+        // cc.log(this.name + ' card info pos: ' + xPos);
+        this.cardInfo.setPosition(xPos + 50, 0);
     },
 
     showStakeChips: function(stake) {

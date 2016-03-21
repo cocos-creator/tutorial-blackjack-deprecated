@@ -3,5 +3,11 @@
   "packageName": "org.cocos2d.tutorialblackjack",
   "platform": "web-mobile",
   "startScene": "8a546935-70d4-42d2-a051-8d0e76f28008",
-  "title": "tutorial_blackjack"
+  "title": "tutorial_blackjack",
+  "orientation": {
+    "landscapeRight": true,
+    "landscapeLeft": true,
+    "portrait": false,
+    "upsideDown": false
+  }
 }

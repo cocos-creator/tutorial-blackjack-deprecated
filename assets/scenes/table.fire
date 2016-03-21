@@ -3,7 +3,6 @@
     "__type__": "cc.SceneAsset",
     "_name": "",
     "_objFlags": 0,
-    "_rawFiles": null,
     "scene": {
       "__id__": 1
     }
@@ -1908,7 +1907,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 40.3,
       "y": 0
     },
     "_skewX": 0,
@@ -8094,7 +8093,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.90380859375,
+      "width": 13.9,
       "height": 40
     },
     "_children": [],
@@ -8501,7 +8500,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 97.32666015625,
+      "width": 97.33,
       "height": 40
     },
     "_children": [],
@@ -9842,7 +9841,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 162.28515625,
+      "width": 162.29,
       "height": 40
     },
     "_children": [],
