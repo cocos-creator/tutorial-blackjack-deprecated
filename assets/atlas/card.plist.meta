@@ -1,5 +1,5 @@
 {
-  "ver": "1.1.2",
+  "ver": "1.2.0",
   "uuid": "59177601-e6e9-4f2d-bf46-644f1a2c7faa",
   "rawTextureUuid": "361bb0f7-fd0c-4a18-896e-a63eb17f9b9c",
   "size": {
@@ -7,7 +7,7 @@
     "height": 256
   },
   "type": "Texture Packer",
-  "rawTexturePath": "/Users/nantas/fireball-x/tutorial/tutorial-blackjack/assets/atlas/card.png",
+  "rawTextureUrl": "db://assets/atlas/card.png",
   "subMetas": {
     "fangkuai_big.png": {
       "ver": "1.0.2",
@@ -26,7 +26,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -47,7 +46,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -68,7 +66,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -89,7 +86,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -110,7 +106,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -131,7 +126,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -152,7 +146,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -173,7 +166,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -194,7 +186,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -215,7 +206,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -236,7 +226,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -257,7 +246,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -278,7 +266,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     }

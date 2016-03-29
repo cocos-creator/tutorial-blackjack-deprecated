@@ -1,5 +1,5 @@
 {
-  "ver": "1.1.2",
+  "ver": "1.2.0",
   "uuid": "017142ed-9ec2-486b-a8ab-fe28b0ea72cb",
   "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
   "size": {
@@ -7,7 +7,7 @@
     "height": 1504
   },
   "type": "Texture Packer",
-  "rawTexturePath": "/Users/nantas/fireball-x/tutorial/tutorial-blackjack/assets/atlas/table.png",
+  "rawTextureUrl": "db://assets/atlas/table.png",
   "subMetas": {
     "10K.png": {
       "ver": "1.0.2",
@@ -26,7 +26,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -47,7 +46,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -68,7 +66,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -89,7 +86,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -110,7 +106,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -131,7 +126,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -152,7 +146,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -173,7 +166,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -194,7 +186,6 @@
       "borderBottom": 0,
       "borderLeft": 102,
       "borderRight": 8,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -215,7 +206,6 @@
       "borderBottom": 0,
       "borderLeft": 17,
       "borderRight": 17,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -236,7 +226,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -257,7 +246,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -278,7 +266,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -299,7 +286,6 @@
       "borderBottom": 0,
       "borderLeft": 39,
       "borderRight": 34,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -320,7 +306,6 @@
       "borderBottom": 65,
       "borderLeft": 65,
       "borderRight": 63,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -341,7 +326,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -362,7 +346,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -383,7 +366,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -404,7 +386,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -425,7 +406,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -446,7 +426,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -467,7 +446,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -488,7 +466,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -509,7 +486,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -530,7 +506,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -551,7 +526,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -572,7 +546,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -593,7 +566,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -614,7 +586,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -635,7 +606,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -656,7 +626,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -677,7 +646,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -698,7 +666,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -719,7 +686,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -740,7 +706,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -761,7 +726,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -782,7 +746,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -803,7 +766,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -824,7 +786,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -845,7 +806,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -866,7 +826,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -887,7 +846,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -908,7 +866,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -929,7 +886,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -950,7 +906,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -971,7 +926,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -992,7 +946,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1013,7 +966,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     }

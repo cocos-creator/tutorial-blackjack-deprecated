@@ -1,5 +1,5 @@
 {
-  "ver": "1.1.2",
+  "ver": "1.2.0",
   "uuid": "4b29ac7e-f9ff-48be-a00d-4a3754645705",
   "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
   "size": {
@@ -7,7 +7,7 @@
     "height": 832
   },
   "type": "Texture Packer",
-  "rawTexturePath": "/Users/nantas/fireball-x/tutorial/tutorial-blackjack/assets/atlas/shared.png",
+  "rawTextureUrl": "db://assets/atlas/shared.png",
   "subMetas": {
     "bg_gold.png": {
       "ver": "1.0.2",
@@ -26,7 +26,6 @@
       "borderBottom": 0,
       "borderLeft": 19,
       "borderRight": 18,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -47,7 +46,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -68,7 +66,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -89,7 +86,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -110,7 +106,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -131,7 +126,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -152,7 +146,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -173,7 +166,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -194,7 +186,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -215,7 +206,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     }
