@@ -9,6 +9,9 @@ cc.Class({
     onLoad: function () {
         this.audioMng = this.audioMng.getComponent('AudioMng');
         this.audioMng.playMusic();
+        cc.director.preloadScene('table', function () {
+            cc.log('Next scene preloaded');
+        });
     },
 
     playGame: function () {
