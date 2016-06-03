@@ -1,5 +1,5 @@
 {
-  "ver": "1.2.1",
+  "ver": "1.2.4",
   "uuid": "6b658474-f0ef-4629-a5a2-8202060d4dab",
   "rawTextureUuid": "3613c6a9-7f48-4446-ad36-0d911a00e6f4",
   "size": {
@@ -7,7 +7,6 @@
     "height": 1114
   },
   "type": "Texture Packer",
-  "rawTextureUrl": "db://assets/atlas/fx_animation.png",
   "subMetas": {
     "blackjack-BLACK JACK_1.png": {
       "ver": "1.0.3",

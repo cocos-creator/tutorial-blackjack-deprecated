@@ -1,5 +1,5 @@
 {
-  "ver": "1.2.1",
+  "ver": "1.2.4",
   "uuid": "59177601-e6e9-4f2d-bf46-644f1a2c7faa",
   "rawTextureUuid": "361bb0f7-fd0c-4a18-896e-a63eb17f9b9c",
   "size": {
@@ -7,7 +7,6 @@
     "height": 256
   },
   "type": "Texture Packer",
-  "rawTextureUrl": "db://assets/atlas/card.png",
   "subMetas": {
     "fangkuai_big.png": {
       "ver": "1.0.3",

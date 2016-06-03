@@ -1,5 +1,5 @@
 {
-  "ver": "1.2.1",
+  "ver": "1.2.4",
   "uuid": "b296171f-3fcf-45db-94c9-e30485534dc0",
   "rawTextureUuid": "a5a9e16f-0ef7-46f3-aa69-564b6532d3f6",
   "size": {
@@ -7,7 +7,6 @@
     "height": 510
   },
   "type": "Texture Packer",
-  "rawTextureUrl": "db://assets/atlas/menu.png",
   "subMetas": {
     "Stroke_photo.png": {
       "ver": "1.0.3",

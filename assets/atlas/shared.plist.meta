@@ -1,5 +1,5 @@
 {
-  "ver": "1.2.1",
+  "ver": "1.2.4",
   "uuid": "4b29ac7e-f9ff-48be-a00d-4a3754645705",
   "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
   "size": {
@@ -7,7 +7,6 @@
     "height": 832
   },
   "type": "Texture Packer",
-  "rawTextureUrl": "db://assets/atlas/shared.png",
   "subMetas": {
     "bg_gold.png": {
       "ver": "1.0.3",
