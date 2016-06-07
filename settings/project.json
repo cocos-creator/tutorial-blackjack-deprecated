@@ -1,3 +1,11 @@
 {
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "group-list": [
+    "default"
+  ],
   "start-scene": "8a546935-70d4-42d2-a051-8d0e76f28008"
 }

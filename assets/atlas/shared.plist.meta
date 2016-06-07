@@ -1,5 +1,5 @@
 {
-  "ver": "1.2.0",
+  "ver": "1.2.4",
   "uuid": "4b29ac7e-f9ff-48be-a00d-4a3754645705",
   "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
   "size": {
@@ -7,10 +7,9 @@
     "height": 832
   },
   "type": "Texture Packer",
-  "rawTextureUrl": "db://assets/atlas/shared.png",
   "subMetas": {
     "bg_gold.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "452ec7a3-741d-4694-a48a-d9aa0459b7c2",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -22,6 +21,8 @@
       "trimY": 789,
       "width": 70,
       "height": 42,
+      "rawWidth": 70,
+      "rawHeight": 42,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 19,
@@ -30,7 +31,7 @@
       "subMetas": {}
     },
     "bg_icon.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "0cfd3579-5c2b-4aa7-b79b-24624157ad57",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -42,6 +43,8 @@
       "trimY": 703,
       "width": 84,
       "height": 64,
+      "rawWidth": 84,
+      "rawHeight": 64,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -50,7 +53,7 @@
       "subMetas": {}
     },
     "icon_.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "fd0294dc-58f6-4a10-9ce7-7bf62aa7fbb7",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -62,6 +65,8 @@
       "trimY": 794,
       "width": 30,
       "height": 30,
+      "rawWidth": 30,
+      "rawHeight": 30,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -70,7 +75,7 @@
       "subMetas": {}
     },
     "icon_back.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "64914ff3-8f52-4efd-b510-df999f32f6e5",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -82,6 +87,8 @@
       "trimY": 744,
       "width": 33,
       "height": 48,
+      "rawWidth": 33,
+      "rawHeight": 48,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -90,7 +97,7 @@
       "subMetas": {}
     },
     "icon_diamond.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "0782c987-9c61-4d86-a947-1178b5187c46",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -102,6 +109,8 @@
       "trimY": 703,
       "width": 61,
       "height": 56,
+      "rawWidth": 61,
+      "rawHeight": 56,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -110,7 +119,7 @@
       "subMetas": {}
     },
     "icon_gold_big.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "c5a9960a-8da4-4e9d-9be3-fbe913b46f5b",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -122,6 +131,8 @@
       "trimY": 766,
       "width": 60,
       "height": 56,
+      "rawWidth": 60,
+      "rawHeight": 56,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -130,7 +141,7 @@
       "subMetas": {}
     },
     "icon_message.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "ddab882c-d47e-4b61-9f0a-4610d7e5c76a",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -142,6 +153,8 @@
       "trimY": 703,
       "width": 50,
       "height": 39,
+      "rawWidth": 50,
+      "rawHeight": 39,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -150,7 +163,7 @@
       "subMetas": {}
     },
     "screen_rotation.jpg": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "e6db4caa-bdec-4d90-805e-27790322111d",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -162,6 +175,8 @@
       "trimY": 1,
       "width": 700,
       "height": 299,
+      "rawWidth": 700,
+      "rawHeight": 299,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -170,7 +185,7 @@
       "subMetas": {}
     },
     "singleColor.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "9222faa4-e0b6-437b-88a6-1194180d9021",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -182,6 +197,8 @@
       "trimY": 744,
       "width": 10,
       "height": 10,
+      "rawWidth": 10,
+      "rawHeight": 10,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
@@ -190,7 +207,7 @@
       "subMetas": {}
     },
     "user_image.png": {
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "uuid": "f30896fb-18d0-4e43-8cae-11594f05ef63",
       "rawTextureUuid": "c5f60c62-1ec5-4865-9a5b-25b3ec70f247",
       "trimType": "auto",
@@ -202,6 +219,8 @@
       "trimY": 703,
       "width": 120,
       "height": 120,
+      "rawWidth": 120,
+      "rawHeight": 120,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
