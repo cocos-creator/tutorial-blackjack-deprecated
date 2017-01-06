@@ -6,6 +6,6 @@ var AssetMng = cc.Class({
         texCardInfo: cc.SpriteFrame,
         texCountdown: cc.SpriteFrame,
         texBetCountdown: cc.SpriteFrame,
-        playerPhotos: cc.SpriteFrame,
+        playerPhotos: [cc.SpriteFrame]
     }
 });
