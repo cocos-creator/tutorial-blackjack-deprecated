@@ -9,5 +9,16 @@
   "packageName": "org.cocos2d.tutorial-blackjack",
   "startScene": "8a546935-70d4-42d2-a051-8d0e76f28008",
   "title": "tutorial-blackjack",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "includeSdk": [
+    "anysdk"
+  ],
+  "includeAnySDK": false,
+  "oauthLoginServer": "",
+  "appKey": "",
+  "appSecret": "",
+  "privateKey": "",
+  "renderMode": "0",
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false
 }
