@@ -36,7 +36,7 @@ cc.Class({
     },
 
     playAddChip: function () {
-        var startPos = cc.p(cc.randomMinus1To1() * 50, cc.randomMinus1To1() * 50);
+        var startPos = cc.v2((Math.random() - 0.5) * 2 * 50, (Math.random() - 0.5) * 2 * 50);
         var chip = cc.instantiate(this.chipPrefab);
         this.anchorChipToss.addChild(chip);
         chip.setPosition(startPos);
