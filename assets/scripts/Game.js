@@ -98,7 +98,7 @@ var Game = cc.Class({
             var anchor = this.playerAnchors[i];
             var switchSide = (i > 2);
             anchor.addChild(playerNode);
-            playerNode.position = cc.p(0, 0);
+            playerNode.position = cc.v2(0, 0);
 
             var playerInfoPos = cc.find('anchorPlayerInfo', anchor).getPosition();
             var stakePos = cc.find('anchorStake', anchor).getPosition();

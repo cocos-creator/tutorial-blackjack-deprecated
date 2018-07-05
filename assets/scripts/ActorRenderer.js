@@ -113,9 +113,9 @@ cc.Class({
         newCard.init(card);
         newCard.reveal(show);
 
-        var startPos = cc.p(0, 0);
+        var startPos = cc.v2(0, 0);
         var index = this.actor.cards.length - 1;
-        var endPos = cc.p(this.cardSpace * index, 0);
+        var endPos = cc.v2(this.cardSpace * index, 0);
         newCard.node.setPosition(startPos);
         this._updatePointPos(endPos.x);
 
