@@ -24,7 +24,7 @@ var Game = cc.Class({
         totalDiamondNum: 0,
         numberOfDecks: {
             default: 1,
-            type: 'Integer'
+            type: cc.Integer
         }
     },
 
