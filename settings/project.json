@@ -8,7 +8,11 @@
       true
     ]
   ],
-  "excluded-modules": [],
+  "excluded-modules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
   "design-resolution-width": 960,
   "design-resolution-height": 640,
   "fit-width": false,
@@ -19,5 +23,17 @@
   "simulator-resolution": {
     "width": 960,
     "height": 640
+  },
+  "last-module-event-record-time": 1575513313890,
+  "assets-sort-type": "name",
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
   }
 }

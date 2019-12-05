@@ -9,7 +9,7 @@
   "type": "Texture Packer",
   "subMetas": {
     "10K.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "0270633e-f369-44fc-a7cb-5187164485e9",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -31,7 +31,7 @@
       "subMetas": {}
     },
     "1K.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "3347ee94-e51f-4a50-827e-4ded1638bcea",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -53,7 +53,7 @@
       "subMetas": {}
     },
     "2K.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "c7b3b53c-9388-4602-bcbf-adfb76e6fdc8",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -75,7 +75,7 @@
       "subMetas": {}
     },
     "5K.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "61218438-a277-4707-9a34-6755eb0ab48c",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -97,7 +97,7 @@
       "subMetas": {}
     },
     "Stroke_photo_tanchuang.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "0a250064-5439-4e1d-8b1d-4d863acc8ff3",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -119,7 +119,7 @@
       "subMetas": {}
     },
     "baopai.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "7c3b6b18-f9be-4dec-b2d4-b815a6c80b88",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -141,7 +141,7 @@
       "subMetas": {}
     },
     "bg_gift.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "31f9891c-86c4-4e54-b66f-78e18d26807d",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -163,7 +163,7 @@
       "subMetas": {}
     },
     "bg_gold(1).png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "fa5c1557-565b-46f1-94f4-45b2bb1865ce",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -185,7 +185,7 @@
       "subMetas": {}
     },
     "bg_gold_touzhu.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "70ba382c-100f-4087-8001-4abd4a0e57fd",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -207,7 +207,7 @@
       "subMetas": {}
     },
     "bg_gold_zhuozi.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "0e42c23d-0c3f-466b-a1df-1857c3ee066d",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -229,7 +229,7 @@
       "subMetas": {}
     },
     "bg_huaxin.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "5105148e-6b4e-42e2-bbb8-ae90d089c6bf",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -251,7 +251,7 @@
       "subMetas": {}
     },
     "bg_inputbox.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "e831b7e7-99dd-4b87-b10b-5a157903cbc2",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -273,7 +273,7 @@
       "subMetas": {}
     },
     "bg_stroke.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "bba3def0-8de6-4f54-9c8a-d9aed82e3e49",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -295,7 +295,7 @@
       "subMetas": {}
     },
     "bg_stroke2.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "47e9d4f5-24e8-4559-a505-16bbf3b68092",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -317,7 +317,7 @@
       "subMetas": {}
     },
     "bg_tanchuang.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "59a4560b-4887-4cb9-8a0d-2f61ca473aa8",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -339,7 +339,7 @@
       "subMetas": {}
     },
     "bg_xitongxiaoxi.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "2d06cc5a-0612-4ef6-b1f0-cc5f6322b711",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -361,7 +361,7 @@
       "subMetas": {}
     },
     "button_blue.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "1e1a530b-7e34-4dee-82ab-ebcbca12093c",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -383,7 +383,7 @@
       "subMetas": {}
     },
     "button_erji.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "073e4109-77c1-4343-bd52-3be8b3d77fed",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -405,7 +405,7 @@
       "subMetas": {}
     },
     "button_fasong.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "08289dfd-a2a8-4b00-b282-51e6b4c8abce",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -427,7 +427,7 @@
       "subMetas": {}
     },
     "button_message.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "933b45db-110f-4bb6-8a5f-5cb8cdb78a05",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -449,7 +449,7 @@
       "subMetas": {}
     },
     "button_orange.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "839f8eca-85f6-4884-8b6e-82ea48af546d",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -471,7 +471,7 @@
       "subMetas": {}
     },
     "daojishi_down.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "c7b24e18-8283-4ec1-8a17-2881a6145523",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -493,7 +493,7 @@
       "subMetas": {}
     },
     "daojishi_photo.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "e35ddbea-5981-4b36-b54d-816f61599f96",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -515,7 +515,7 @@
       "subMetas": {}
     },
     "daojishi_up.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "98c028b9-eeab-4ac4-99fc-cfd825004ade",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -537,7 +537,7 @@
       "subMetas": {}
     },
     "dealer.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "89c50949-e62d-40e6-aba9-1ccc6300691c",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -559,7 +559,7 @@
       "subMetas": {}
     },
     "double.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "606256e6-ba72-461d-8f7c-db12afc96b81",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -581,7 +581,7 @@
       "subMetas": {}
     },
     "gift_bucket.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "50181c61-7f4b-441f-8391-745408e2abc0",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -603,7 +603,7 @@
       "subMetas": {}
     },
     "gift_kiss.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "33d12588-5944-4ac0-bb7c-dbc41f54a996",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -625,7 +625,7 @@
       "subMetas": {}
     },
     "gift_rose.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "6203fdfe-078d-41f3-bc36-1ce8a447e3eb",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -647,7 +647,7 @@
       "subMetas": {}
     },
     "gift_tomato.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "28f82fb8-1e42-4e4d-a38d-a4c84d838f86",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -669,7 +669,7 @@
       "subMetas": {}
     },
     "hit.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "0fe0b1c0-b62d-4a98-b500-2a60cec0d9b2",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -691,7 +691,7 @@
       "subMetas": {}
     },
     "icon_KO.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "3f5ce1e1-7fb4-46da-9f22-180eb35e4582",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -713,7 +713,7 @@
       "subMetas": {}
     },
     "icon_boy.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "e65e1d97-52ca-4e3d-95e9-dc619a2c6e81",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -735,7 +735,7 @@
       "subMetas": {}
     },
     "icon_girl.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "bb3bb39e-9495-44d0-bed9-47499338c8e2",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -757,7 +757,7 @@
       "subMetas": {}
     },
     "icon_gold_small.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "f0fb1309-0589-4115-85b6-9d072f24721d",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -779,7 +779,7 @@
       "subMetas": {}
     },
     "icon_qingkongtouzhu.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "ebb488d4-2f98-43a9-8b98-1b0f22d8c3db",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -801,7 +801,7 @@
       "subMetas": {}
     },
     "icon_touzhu-.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "ea06d2fe-d27c-44c5-a003-254a86daa1a9",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -823,7 +823,7 @@
       "subMetas": {}
     },
     "icon_usercp.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "ca569662-990b-41ff-9213-943252513739",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -845,7 +845,7 @@
       "subMetas": {}
     },
     "input-box.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "2c465541-bec6-4395-8173-a05a3d5b7f38",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -867,7 +867,7 @@
       "subMetas": {}
     },
     "paishu.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "bb3018c2-474d-4e8e-8870-67d18c74c0cd",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -889,7 +889,7 @@
       "subMetas": {}
     },
     "send.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "d94f9a90-3a67-4999-a0e2-e9316bce31f2",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -911,7 +911,7 @@
       "subMetas": {}
     },
     "stand.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "46b55ec8-c1ba-41dd-bdb3-2a21c22101e3",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -933,7 +933,7 @@
       "subMetas": {}
     },
     "txtCountdown.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "398a5a3c-d3b9-4563-bfc5-e286d119f0d1",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -955,7 +955,7 @@
       "subMetas": {}
     },
     "user-circle_1.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "5411e8f8-1a17-4c27-bd4a-26f6c627a13b",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -977,7 +977,7 @@
       "subMetas": {}
     },
     "user-circle_2.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "5fdc099b-a062-4d49-8b5a-b24ddc84db5f",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -999,7 +999,7 @@
       "subMetas": {}
     },
     "user-circle_3.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "13a2d1fc-1883-4e80-afc0-ecd85d57ed7c",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -1021,7 +1021,7 @@
       "subMetas": {}
     },
     "user-circle_4.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "b9d35f1e-9452-4222-a24a-5d4d4007fb58",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
@@ -1043,7 +1043,7 @@
       "subMetas": {}
     },
     "user-circle_5.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "bc0bfda6-f0b2-463d-b4f4-1e5a6ea74207",
       "rawTextureUuid": "ab053ea5-cc4e-4131-b540-51719b5d05f6",
       "trimType": "auto",
